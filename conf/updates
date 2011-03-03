@@ -1,0 +1,148 @@
+Name: hardy
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: hardy
+Components: main>main universe>universe
+UDebComponents: main>main universe>universe
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-hardy
+
+Name: hardy-updates
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: hardy-updates
+Components: main>main universe>universe
+UDebComponents: main>main universe>universe
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-hardy
+
+Name: hardy-security
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: hardy-security
+Components: main>main universe>universe
+UDebComponents: main>main universe>universe
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-hardy
+
+Name: hardy-backports
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: hardy-backports
+Components: main>main universe>universe
+UDebComponents: main>main universe>universe
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-hardy
+
+Name: jaunty
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: jaunty
+Components: main>main universe>universe
+UDebComponents: main>main universe>universe
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-jaunty
+
+Name: jaunty-updates
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: jaunty-updates
+Components: main>main universe>universe
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-jaunty
+
+Name: jaunty-security
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: jaunty-security
+Components: main>main universe>universe
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-jaunty
+
+Name: jaunty-backports
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: jaunty-backports
+Components: main>main universe>universe
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-jaunty
+
+Name: karmic
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: karmic
+Components: main>main universe>main
+UDebComponents: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-karmic
+
+Name: karmic-updates
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: karmic-updates
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-karmic
+
+Name: karmic-security
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: karmic-security
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-karmic
+
+Name: karmic-backports
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: karmic-backports
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-karmic
+
+
+Name: lucid
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: lucid
+Components: main>main universe>main
+UDebComponents: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-lucid
+
+Name: lucid-updates
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: lucid-updates
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-lucid
+
+Name: lucid-security
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: lucid-security
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-lucid
+
+Name: lucid-backports
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: lucid-backports
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-lucid
+
+Name: maverick
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: maverick
+Components: main>main universe>main
+UDebComponents: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-maverick
+
+Name: maverick-updates
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: maverick-updates
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-maverick
+
+Name: maverick-security
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: maverick-security
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-maverick
+
+Name: maverick-backports
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: maverick-backports
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-maverick

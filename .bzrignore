@@ -1,0 +1,15 @@
+logs
+pool
+lists
+files
+dists
+db
+update.log
+update.log.bak
+ERROR
+conf/purge.*
+conf/purge-hardy
+conf/purge-jaunty
+conf/purge-karmic
+conf/purge-lucid
+conf/purge-maverick

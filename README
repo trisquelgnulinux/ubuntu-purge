@@ -1,0 +1,4 @@
+This scripts and config files download, update and purge an Ubuntu repository
+using reprepro, in order to use it as a clean upstream for fully free distros.
+
+You need reprepro 3.5.2 or higher, and gpg with the Ubuntu keys imported.
