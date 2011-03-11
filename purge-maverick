@@ -22,7 +22,6 @@ isdnactivecards
 isdnutils
 ivman
 jockey
-lubuntu-restricted-extras
 linux-fsl-imx51
 linux-meta-fsl-imx51
 linux-meta-mvl-dove
@@ -66,6 +65,7 @@ testdrive
 ubufox
 unetbootin
 ubuntuone-client
+ubuntu-restricted-extras
 rhythmbox-ubuntuone-music-store
 ubuntuone-dev-tools
 libubuntuone
