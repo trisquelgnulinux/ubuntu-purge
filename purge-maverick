@@ -41,6 +41,7 @@ linux-restricted-modules
 linux-restricted-modules-rt
 linux-rt
 linux-wlan-ng
+mame
 mesademos
 moon
 ndisgtk
