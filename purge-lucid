@@ -38,9 +38,13 @@ linux-lts-backport-maverick
 linux-meta-rt
 linux-ports
 linux-ports-meta
+linux-qcm-msm
+linux-meta-qcm-msm
 linux-restricted-modules
 linux-restricted-modules-rt
 linux-rt
+linux-ti-omap
+linux-meta-ti-omap
 linux-wlan-ng
 mesademos
 moon

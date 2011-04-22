@@ -27,8 +27,10 @@ ivman
 jockey
 linux-ec2
 linux-meta-ec2
+linux-backports-modules
 linux-backports-modules-2.6.24
 linux-restricted-modules
+linux-restricted-modules-2.6.24
 linux-wlan-ng
 mesademos
 ndisgtk
