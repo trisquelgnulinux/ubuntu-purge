@@ -16,11 +16,11 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-[ -f update.log ] && mv update.log update.log.bak
+savelog logs/update.log
+exec &> logs/update.log
 
-DOALL() {
 date
-echo -n Updating...
+echo Updating...
 reprepro  -v -b . update
 if reprepro  -v -b . update
 then
@@ -36,9 +36,7 @@ sh purge.sh jaunty
 sh purge.sh karmic
 sh purge.sh lucid
 sh purge.sh maverick
-echo listing...
+echo Listing...
 find pool/ > files
 echo DONE
-}
 
-COLUMNS=500 DOALL 2>&1 | COLUMNS=500 tee update.log
