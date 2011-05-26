@@ -31,6 +31,7 @@ linux-meta-ec2
 linux-backports-modules-2.6.31
 linux-backports-modules-2.6.32
 linux-backports-modules-2.6.35
+linux-backports-modules-2.6.38
 linux-firmware
 linux-linaro
 linux-meta-linaro

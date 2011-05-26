@@ -146,3 +146,32 @@ Suite: maverick-backports
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-maverick
+
+Name: natty
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: natty
+Components: main>main universe>main
+UDebComponents: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-natty
+
+Name: natty-updates
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: natty-updates
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-natty
+
+Name: natty-security
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: natty-security
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-natty
+
+Name: natty-backports
+Method: ftp://archive.ubuntu.com/ubuntu/
+Suite: natty-backports
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-natty

@@ -32,10 +32,11 @@ else
 fi
 echo Removing non free packages...
 sh purge.sh hardy
-sh purge.sh jaunty
+#sh purge.sh jaunty
 sh purge.sh karmic
 sh purge.sh lucid
 sh purge.sh maverick
+sh purge.sh natty
 echo Listing...
 find pool/ > files
 echo DONE

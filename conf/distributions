@@ -62,63 +62,63 @@ Description: Ubuntu hardy updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
 Update: hardy-backports
 
-Origin: Ubuntu
-Label: Ubuntu
-Suite: jaunty
-Version: 8.04
-Codename: jaunty
-Architectures: i386 amd64 source
-Components: main universe
-UDebComponents: main universe
-DebIndices: Packages Release . .gz .bz2
-UDebIndices: Packages . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu jaunty mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: jaunty
+#Origin: Ubuntu
+#Label: Ubuntu
+#Suite: jaunty
+#Version: 8.04
+#Codename: jaunty
+#Architectures: i386 amd64 source
+#Components: main universe
+#UDebComponents: main universe
+#DebIndices: Packages Release . .gz .bz2
+#UDebIndices: Packages . .gz .bz2
+#DscIndices: Sources Release .gz .bz2
+#Log: ubuntu-clean.log
+#Description: Ubuntu jaunty mirror (main and universe)
+#SignWith: B4EFB9F38D8AEBF1
+#Update: jaunty
 
-Origin: Ubuntu
-Label: Ubuntu
-Suite: jaunty-updates
-Version: 8.04
-Codename: jaunty-updates
-Architectures: i386 amd64 source
-Components: main universe
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu jaunty updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: jaunty-updates
+#Origin: Ubuntu
+#Label: Ubuntu
+#Suite: jaunty-updates
+#Version: 8.04
+#Codename: jaunty-updates
+#Architectures: i386 amd64 source
+#Components: main universe
+#DebIndices: Packages Release . .gz .bz2
+#DscIndices: Sources Release .gz .bz2
+#Log: ubuntu-clean.log
+#Description: Ubuntu jaunty updates mirror (main and universe)
+#SignWith: B4EFB9F38D8AEBF1
+#Update: jaunty-updates
 
-Origin: Ubuntu
-Label: Ubuntu
-Suite: jaunty-security
-Version: 8.04
-Codename: jaunty-security
-Architectures: i386 amd64 source
-Components: main universe
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu jaunty mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: jaunty-security
+#Origin: Ubuntu
+#Label: Ubuntu
+#Suite: jaunty-security
+#Version: 8.04
+#Codename: jaunty-security
+#Architectures: i386 amd64 source
+#Components: main universe
+#DebIndices: Packages Release . .gz .bz2
+#DscIndices: Sources Release .gz .bz2
+#Log: ubuntu-clean.log
+#Description: Ubuntu jaunty mirror (main and universe)
+#SignWith: B4EFB9F38D8AEBF1
+#Update: jaunty-security
 
-Origin: Ubuntu
-Label: Ubuntu
-Suite: jaunty-backports
-Version: 8.04
-Codename: jaunty-backports
-Architectures: i386 amd64 source
-Components: main universe
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu jaunty updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: jaunty-backports
+#Origin: Ubuntu
+#Label: Ubuntu
+#Suite: jaunty-backports
+#Version: 8.04
+#Codename: jaunty-backports
+#Architectures: i386 amd64 source
+#Components: main universe
+#DebIndices: Packages Release . .gz .bz2
+#DscIndices: Sources Release .gz .bz2
+#Log: ubuntu-clean.log
+#Description: Ubuntu jaunty updates mirror (main and universe)
+#SignWith: B4EFB9F38D8AEBF1
+#Update: jaunty-backports
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -296,4 +296,63 @@ Log: ubuntu-clean.log
 Description: Ubuntu maverick updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
 Update: maverick-backports
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: natty
+Version: 11.04
+Codename: natty
+Architectures: i386 amd64 source
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu natty mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: natty
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: natty-updates
+Version: 11.04
+Codename: natty-updates
+Architectures: i386 amd64 source
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu natty updates mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: natty-updates
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: natty-security
+Version: 11.04
+Codename: natty-security
+Architectures: i386 amd64 source
+Components: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu natty mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: natty-security
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: natty-backports
+Version: 11.04
+Codename: natty-backports
+Architectures: i386 amd64 source
+Components: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu natty updates mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: natty-backports
 
