@@ -13,3 +13,8 @@ conf/purge-jaunty
 conf/purge-karmic
 conf/purge-lucid
 conf/purge-maverick
+incoming/*
+incoming
+checksums.db
+remove.sh
+conf/purge-natty

@@ -13,8 +13,10 @@ d4x
 envyng-core
 envyng-gtk
 envyng-qt
+firefox
 fglrx-installer
 freesci
+get-iplayer
 gfxboot-theme-ubuntu
 gstreamer0.10-pitfdll
 helix-player
@@ -27,6 +29,7 @@ linux-meta-fsl-imx51
 linux-meta-mvl-dove
 linux-mvl-dove
 linux-ec2
+linux
 linux-meta-ec2
 linux-backports-modules-2.6.31
 linux-backports-modules-2.6.32
@@ -48,6 +51,12 @@ linux-rt
 linux-ti-omap4
 linux-meta-ti-omap4
 linux-wlan-ng
+linux-linaro-u8500
+linux-linaro-vexpress
+linux-linaro-s5pv310
+linux-linaro-mx51
+linux-linaro-omap
+linux-n900
 mame
 mesademos
 moon
@@ -83,6 +92,9 @@ vrms
 "
 
 UNBRAND="
+gnome-user-docs
+yelp
+yelp-xsl
 blubuntu
 edubuntu
 kubuntu
