@@ -37,6 +37,7 @@ sh purge.sh karmic
 sh purge.sh lucid
 sh purge.sh maverick
 sh purge.sh natty
+sh purge.sh oneiric
 echo Listing...
 find pool/ > files
 echo DONE

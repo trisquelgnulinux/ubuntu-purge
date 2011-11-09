@@ -1,5 +1,5 @@
 Name: hardy
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: hardy
 Components: main>main universe>universe
 UDebComponents: main>main universe>universe
@@ -7,7 +7,7 @@ VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-hardy
 
 Name: hardy-updates
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: hardy-updates
 Components: main>main universe>universe
 UDebComponents: main>main universe>universe
@@ -15,7 +15,7 @@ VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-hardy
 
 Name: hardy-security
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: hardy-security
 Components: main>main universe>universe
 UDebComponents: main>main universe>universe
@@ -23,7 +23,7 @@ VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-hardy
 
 Name: hardy-backports
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: hardy-backports
 Components: main>main universe>universe
 UDebComponents: main>main universe>universe
@@ -31,7 +31,7 @@ VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-hardy
 
 Name: jaunty
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: jaunty
 Components: main>main universe>universe
 UDebComponents: main>main universe>universe
@@ -39,28 +39,28 @@ VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-jaunty
 
 Name: jaunty-updates
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: jaunty-updates
 Components: main>main universe>universe
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-jaunty
 
 Name: jaunty-security
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: jaunty-security
 Components: main>main universe>universe
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-jaunty
 
 Name: jaunty-backports
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: jaunty-backports
 Components: main>main universe>universe
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-jaunty
 
 Name: karmic
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: karmic
 Components: main>main universe>main
 UDebComponents: main>main universe>main
@@ -68,21 +68,21 @@ VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-karmic
 
 Name: karmic-updates
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: karmic-updates
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-karmic
 
 Name: karmic-security
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: karmic-security
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-karmic
 
 Name: karmic-backports
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: karmic-backports
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
@@ -90,7 +90,7 @@ FilterList: install purge-karmic
 
 
 Name: lucid
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: lucid
 Components: main>main universe>main
 UDebComponents: main>main universe>main
@@ -98,28 +98,28 @@ VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-lucid
 
 Name: lucid-updates
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: lucid-updates
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-lucid
 
 Name: lucid-security
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: lucid-security
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-lucid
 
 Name: lucid-backports
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: lucid-backports
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-lucid
 
 Name: maverick
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: maverick
 Components: main>main universe>main
 UDebComponents: main>main universe>main
@@ -127,28 +127,28 @@ VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-maverick
 
 Name: maverick-updates
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: maverick-updates
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-maverick
 
 Name: maverick-security
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: maverick-security
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-maverick
 
 Name: maverick-backports
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: maverick-backports
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-maverick
 
 Name: natty
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: natty
 Components: main>main universe>main
 UDebComponents: main>main universe>main
@@ -156,28 +156,28 @@ VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-natty
 
 Name: natty-updates
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: natty-updates
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-natty
 
 Name: natty-security
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: natty-security
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-natty
 
 Name: natty-backports
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: natty-backports
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-natty
 
 Name: oneiric
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: oneiric
 Components: main>main universe>main
 UDebComponents: main>main universe>main
@@ -185,21 +185,21 @@ VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-oneiric
 
 Name: oneiric-updates
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: oneiric-updates
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-oneiric
 
 Name: oneiric-security
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: oneiric-security
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-oneiric
 
 Name: oneiric-backports
-Method: http://archive.ubuntu.com/ubuntu/
+Method: ftp://archive.ubuntu.com/ubuntu/
 Suite: oneiric-backports
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
