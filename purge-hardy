@@ -10,6 +10,8 @@ blobwars
 cracklib2
 d4x
 ee
+easycrypt
+gdecrypt
 envyng-core
 envyng-gtk
 envyng-qt
@@ -43,6 +45,7 @@ pdftk
 prboom
 python-crack
 rman
+seamonkey
 starfighter
 scribus-ng-doc
 tatan

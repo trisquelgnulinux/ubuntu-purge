@@ -10,6 +10,8 @@ bcm43xx-fwcutter
 chromium-codecs-ffmpeg
 chromium-browser
 d4x
+easycrypt
+gdecrypt
 envyng-core
 envyng-gtk
 envyng-qt
@@ -68,6 +70,7 @@ rhythmbox-ubuntuone-music-store
 rman
 scribus-ng-doc
 software-center
+seamonkey
 starfighter
 tatan
 testdrive

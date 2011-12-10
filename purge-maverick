@@ -10,6 +10,8 @@ bcm43xx-fwcutter
 chromium-codecs-ffmpeg
 chromium-browser
 d4x
+easycrypt
+gdecrypt
 envyng-core
 envyng-gtk
 envyng-qt
@@ -64,6 +66,7 @@ nvidia-xconfig
 ophcrack
 rman
 scribus-ng-doc
+seamonkey
 software-center
 starfighter
 tatan

@@ -26,6 +26,8 @@ bcm43xx-fwcutter
 chromium-codecs-ffmpeg
 chromium-browser
 d4x
+easycrypt
+gdecrypt
 envyng-core
 envyng-gtk
 envyng-qt
@@ -98,6 +100,7 @@ unetbootin
 ubuntuone-client
 ubuntu-restricted-extras
 rhythmbox-ubuntuone-music-store
+seamonkey
 ubuntuone-dev-tools
 libubuntuone
 ubuntuone-storage-protocol

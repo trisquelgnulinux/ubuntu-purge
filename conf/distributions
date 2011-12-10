@@ -134,7 +134,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu karmic mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: karmic
+#Update: karmic
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -148,7 +148,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu karmic updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: karmic-updates
+#Update: karmic-updates
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -162,7 +162,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu karmic mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: karmic-security
+#Update: karmic-security
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -176,7 +176,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu karmic updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: karmic-backports
+#Update: karmic-backports
 
 
 Origin: Ubuntu

@@ -8,6 +8,8 @@ app-install-data-partner
 b43-fwcutter
 bcm43xx-fwcutter
 d4x
+easycrypt
+gdecrypt
 envyng-core
 envyng-gtk
 envyng-qt
@@ -55,6 +57,7 @@ pdftk
 rman
 scribus-ng-doc
 software-center
+seamonkey
 starfighter
 tatan
 ubufox
