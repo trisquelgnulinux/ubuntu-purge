@@ -4,6 +4,7 @@ lists
 files
 dists
 db
+db.bak
 update.log
 update.log.bak
 ERROR
@@ -13,8 +14,10 @@ conf/purge-jaunty
 conf/purge-karmic
 conf/purge-lucid
 conf/purge-maverick
+conf/purge-oneiric
 incoming/*
 incoming
 checksums.db
 remove.sh
 conf/purge-natty
+conf/purge-oneiric
