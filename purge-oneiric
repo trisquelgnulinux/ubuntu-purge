@@ -1,22 +1,6 @@
 #!/bin/sh
 
 REMOVE="
-compizconfig-python
-compiz
-compiz-bcop
-compizconfig-backend-gconf
-compizconfig-backend-kconfig
-compizconfig-bindings
-compizconfig-python
-compizconfig-settings-manager
-compiz-fusion-bcop
-compiz-fusion-plugins-extra
-compiz-fusion-plugins-main
-compiz-fusion-plugins-unsupported
-kicker-compiz
-kicker-taskbar-compiz
-libcompizconfig
-utouch-compiz
 aee
 afio
 app-install-data-commercial
@@ -118,12 +102,12 @@ vrms
 w9wm
 acetoneiso
 a2ps-perl-ja
+bibletime
+bibledit
+bible-kjv
 "
 
 UNBRAND="
-gnome-user-docs
-yelp
-yelp-xsl
 blubuntu
 edubuntu
 kubuntu
