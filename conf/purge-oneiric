@@ -119,7 +119,10 @@ desktop-file-utils purge
 dh-modaliases purge
 disk-detect purge
 download-installer purge
+dpkg-dev purge
+dpkg purge
 driver-injection-disk-detect purge
+dselect purge
 edos-distcheck purge
 edubuntu-addon-meta purge
 edubuntu-artwork purge
@@ -245,6 +248,7 @@ firefox-locale-it purge
 firefox-locale-ja purge
 firefox-locale-ka purge
 firefox-locale-kk purge
+firefox-locale-km purge
 firefox-locale-kn purge
 firefox-locale-ko purge
 firefox-locale-ku purge
@@ -577,6 +581,8 @@ libapt-pkg-dev purge
 libapt-pkg-doc purge
 libcapi20-3 purge
 libcapi20-dev purge
+libdpkg-dev purge
+libdpkg-perl purge
 libevolution purge
 libgail18 purge
 libgail-common purge
@@ -652,8 +658,6 @@ libpoppler-qt-dev purge
 libpurple0 purge
 libpurple-bin purge
 libpurple-dev purge
-librec0 purge
-librec-dev purge
 libred5-java purge
 librhythmbox-core4 purge
 librss1 purge
@@ -1174,7 +1178,6 @@ quassel-data purge
 quassel-dbg purge
 quassel purge
 quassel-qt4 purge
-recutils purge
 red5-doc purge
 red5 purge
 red5-server purge
