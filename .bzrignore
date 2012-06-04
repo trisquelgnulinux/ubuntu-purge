@@ -8,7 +8,6 @@ db.bak
 update.log
 update.log.bak
 ERROR
-conf/purge.*
 conf/purge-hardy
 conf/purge-jaunty
 conf/purge-karmic
