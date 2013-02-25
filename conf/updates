@@ -204,3 +204,33 @@ Suite: oneiric-backports
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterList: install purge-oneiric
+
+Name: precise
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: precise
+Components: main>main universe>main
+UDebComponents: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-precise
+
+Name: precise-updates
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: precise-updates
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-precise
+
+Name: precise-security
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: precise-security
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-precise
+
+Name: precise-backports
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: precise-backports
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterList: install purge-precise
+

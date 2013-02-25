@@ -252,7 +252,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu maverick mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: maverick
+#Update: maverick
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -267,7 +267,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu maverick updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: maverick-updates
+#Update: maverick-updates
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -281,7 +281,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu maverick mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: maverick-security
+#Update: maverick-security
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -295,7 +295,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu maverick updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: maverick-backports
+#Update: maverick-backports
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -414,4 +414,63 @@ Log: ubuntu-clean.log
 Description: Ubuntu oneiric updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
 Update: oneiric-backports
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: precise
+Version: 12.04
+Codename: precise
+Architectures: i386 amd64 source
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu precise mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: precise
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: precise-updates
+Version: 12.04
+Codename: precise-updates
+Architectures: i386 amd64 source
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu precise updates mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: precise-updates
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: precise-security
+Version: 12.04
+Codename: precise-security
+Architectures: i386 amd64 source
+Components: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu precise mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: precise-security
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: precise-backports
+Version: 12.04
+Codename: precise-backports
+Architectures: i386 amd64 source
+Components: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu precise updates mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: precise-backports
 

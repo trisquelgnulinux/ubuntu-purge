@@ -20,5 +20,3 @@ checksums.db
 remove.sh
 conf/purge-natty
 conf/purge-oneiric
-check
-list

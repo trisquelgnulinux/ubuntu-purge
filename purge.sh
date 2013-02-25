@@ -18,10 +18,12 @@
 
 set -e
 
-[ $2"1" = "test1" ] && TEST=echo
+[ $3"1" = "test1" ] && TEST=echo
 
 DIST=$1
-REPLACE=$(ls -1 /home/systems/devel/helpers/$DIST/make-* | sed 's:^.*/::; s:make-::')
+CODENAME=$2
+#REPLACE=$(ls -1 /home/systems/devel/helpers/$DIST/make-* | sed 's:^.*/::; s:make-::')
+REPLACE=$(git --git-dir=/home/systems/devel/.git ls-tree -r --name-only $CODENAME|grep helpers/make-|sed 's/.*make-//')
 NETINST="apt-setup base-installer choose-mirror debian-installer main-menu netcfg net-retriever pkgsel"
 
 if [ -x purge-$DIST ] 

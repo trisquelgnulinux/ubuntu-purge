@@ -30,15 +30,21 @@ else
     echo Do NOT update any leaf repositories from here until it is fixed
     date > ERROR
 fi
+
+listpackages(){
+for dist in $1 $1-updates $1-security $1-backports
+do
+    reprepro list $dist >> list
+done
+}
+
 echo Removing non free packages...
-sh purge.sh hardy
-#sh purge.sh jaunty
-sh purge.sh karmic
-sh purge.sh lucid
-sh purge.sh maverick
-sh purge.sh natty
-sh purge.sh oneiric
-echo Listing...
-find pool/ > files
+rm list
+sh purge.sh hardy robur
+sh purge.sh lucid taranis
+sh purge.sh natty dagda
+sh purge.sh oneiric brigantia
+sh purge.sh precise toutatis
 echo DONE
+sh list.sh > list
 
