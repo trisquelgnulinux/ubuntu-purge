@@ -1128,9 +1128,6 @@ libnautilus-extension-dev purge
 libnewt0.52 purge
 libnewt-dev purge
 libnewt-pic purge
-libnvtt2 purge
-libnvtt-bin purge
-libnvtt-dev purge
 libpanel-applet-4-0 purge
 libpanel-applet-4-dev purge
 libpanel-applet-4-doc purge
