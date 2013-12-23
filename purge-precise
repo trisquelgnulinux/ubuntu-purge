@@ -18,6 +18,7 @@ envyng-qt
 fglrx-installer
 freesci
 gfxboot-theme-ubuntu
+grub2-signed
 gstreamer0.10-pitfdll
 helix-player
 isdnactivecards
@@ -44,7 +45,11 @@ linux-backports-modules-3.0.0
 linux-backports-modules-3.2.0
 linux-backports-modules-3.5.0
 linux-lts-quantal
+linux-lts-raring
 linux-signed-lts-quantal 
+linux-signed-lts-raring
+linux-meta-lts-quantal 
+linux-meta-lts-raring
 linux-firmware
 linux-linaro
 linux-linaro-shared
@@ -70,6 +75,9 @@ linux-linaro-s5pv310
 linux-linaro-mx51
 linux-linaro-omap
 linux-n900
+linux-meta-lts-saucy
+linux-signed-lts-saucy
+linux-lts-saucy
 mame
 mesademos
 moon
@@ -90,6 +98,7 @@ nvidia-settings-experimental-304
 nvidia-settings-experimental-310
 ophcrack
 rman
+shim-signed
 simutrans-pak128.britain
 simutrans
 simutrans-pak64
