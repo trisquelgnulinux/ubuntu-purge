@@ -1,185 +1,3 @@
-Origin: Ubuntu
-Label: Ubuntu
-Suite: hardy
-Version: 8.04
-Codename: hardy
-Architectures: i386 amd64 source
-Components: main universe
-UDebComponents: main universe
-DebIndices: Packages Release . .gz .bz2
-UDebIndices: Packages . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu hardy mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: hardy
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: hardy-updates
-Version: 8.04
-Codename: hardy-updates
-Architectures: i386 amd64 source
-Components: main universe
-UDebComponents: main universe
-DebIndices: Packages Release . .gz .bz2
-UDebIndices: Packages . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu hardy updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: hardy-updates
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: hardy-security
-Version: 8.04
-Codename: hardy-security
-Architectures: i386 amd64 source
-Components: main universe
-UDebComponents: main universe
-DebIndices: Packages Release . .gz .bz2
-UDebIndices: Packages . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu hardy mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: hardy-security
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: hardy-backports
-Version: 8.04
-Codename: hardy-backports
-Architectures: i386 amd64 source
-Components: main universe
-UDebComponents: main universe
-DebIndices: Packages Release . .gz .bz2
-UDebIndices: Packages . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu hardy updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: hardy-backports
-
-#Origin: Ubuntu
-#Label: Ubuntu
-#Suite: jaunty
-#Version: 8.04
-#Codename: jaunty
-#Architectures: i386 amd64 source
-#Components: main universe
-#UDebComponents: main universe
-#DebIndices: Packages Release . .gz .bz2
-#UDebIndices: Packages . .gz .bz2
-#DscIndices: Sources Release .gz .bz2
-#Log: ubuntu-clean.log
-#Description: Ubuntu jaunty mirror (main and universe)
-#SignWith: B4EFB9F38D8AEBF1
-#Update: jaunty
-
-#Origin: Ubuntu
-#Label: Ubuntu
-#Suite: jaunty-updates
-#Version: 8.04
-#Codename: jaunty-updates
-#Architectures: i386 amd64 source
-#Components: main universe
-#DebIndices: Packages Release . .gz .bz2
-#DscIndices: Sources Release .gz .bz2
-#Log: ubuntu-clean.log
-#Description: Ubuntu jaunty updates mirror (main and universe)
-#SignWith: B4EFB9F38D8AEBF1
-#Update: jaunty-updates
-
-#Origin: Ubuntu
-#Label: Ubuntu
-#Suite: jaunty-security
-#Version: 8.04
-#Codename: jaunty-security
-#Architectures: i386 amd64 source
-#Components: main universe
-#DebIndices: Packages Release . .gz .bz2
-#DscIndices: Sources Release .gz .bz2
-#Log: ubuntu-clean.log
-#Description: Ubuntu jaunty mirror (main and universe)
-#SignWith: B4EFB9F38D8AEBF1
-#Update: jaunty-security
-
-#Origin: Ubuntu
-#Label: Ubuntu
-#Suite: jaunty-backports
-#Version: 8.04
-#Codename: jaunty-backports
-#Architectures: i386 amd64 source
-#Components: main universe
-#DebIndices: Packages Release . .gz .bz2
-#DscIndices: Sources Release .gz .bz2
-#Log: ubuntu-clean.log
-#Description: Ubuntu jaunty updates mirror (main and universe)
-#SignWith: B4EFB9F38D8AEBF1
-#Update: jaunty-backports
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: karmic
-Version: 9.10
-Codename: karmic
-Architectures: i386 amd64 source
-Components: main
-UDebComponents: main
-DebIndices: Packages Release . .gz .bz2
-UDebIndices: Packages . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu karmic mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-#Update: karmic
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: karmic-updates
-Version: 9.10
-Codename: karmic-updates
-Architectures: i386 amd64 source
-Components: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu karmic updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-#Update: karmic-updates
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: karmic-security
-Version: 9.10
-Codename: karmic-security
-Architectures: i386 amd64 source
-Components: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu karmic mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-#Update: karmic-security
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: karmic-backports
-Version: 9.10
-Codename: karmic-backports
-Architectures: i386 amd64 source
-Components: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu karmic updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-#Update: karmic-backports
-
-
-Origin: Ubuntu
 Label: Ubuntu
 Suite: lucid
 Version: 10.04
@@ -238,182 +56,6 @@ Description: Ubuntu lucid updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
 Update: lucid-backports
 
-Origin: Ubuntu
-Label: Ubuntu
-Suite: maverick
-Version: 10.10
-Codename: maverick
-Architectures: i386 amd64 source
-Components: main
-UDebComponents: main
-DebIndices: Packages Release . .gz .bz2
-UDebIndices: Packages . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu maverick mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-#Update: maverick
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: maverick-updates
-Version: 10.10
-Codename: maverick-updates
-Architectures: i386 amd64 source
-Components: main
-UDebComponents: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu maverick updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-#Update: maverick-updates
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: maverick-security
-Version: 10.10
-Codename: maverick-security
-Architectures: i386 amd64 source
-Components: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu maverick mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-#Update: maverick-security
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: maverick-backports
-Version: 10.10
-Codename: maverick-backports
-Architectures: i386 amd64 source
-Components: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu maverick updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-#Update: maverick-backports
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: natty
-Version: 11.04
-Codename: natty
-Architectures: i386 amd64 source
-Components: main
-UDebComponents: main
-DebIndices: Packages Release . .gz .bz2
-UDebIndices: Packages . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu natty mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: natty
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: natty-updates
-Version: 11.04
-Codename: natty-updates
-Architectures: i386 amd64 source
-Components: main
-UDebComponents: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu natty updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: natty-updates
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: natty-security
-Version: 11.04
-Codename: natty-security
-Architectures: i386 amd64 source
-Components: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu natty mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: natty-security
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: natty-backports
-Version: 11.04
-Codename: natty-backports
-Architectures: i386 amd64 source
-Components: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu natty updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: natty-backports
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: oneiric
-Version: 11.10
-Codename: oneiric
-Architectures: i386 amd64 source
-Components: main
-UDebComponents: main
-DebIndices: Packages Release . .gz .bz2
-UDebIndices: Packages . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu oneiric mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: oneiric
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: oneiric-updates
-Version: 11.10
-Codename: oneiric-updates
-Architectures: i386 amd64 source
-Components: main
-UDebComponents: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu oneiric updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: oneiric-updates
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: oneiric-security
-Version: 11.10
-Codename: oneiric-security
-Architectures: i386 amd64 source
-Components: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu oneiric mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: oneiric-security
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: oneiric-backports
-Version: 11.10
-Codename: oneiric-backports
-Architectures: i386 amd64 source
-Components: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu oneiric updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: oneiric-backports
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -473,4 +115,63 @@ Log: ubuntu-clean.log
 Description: Ubuntu precise updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
 Update: precise-backports
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: trusty
+Version: 14.04
+Codename: trusty
+Architectures: i386 amd64 source
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu trusty mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: trusty
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: trusty-updates
+Version: 14.04
+Codename: trusty-updates
+Architectures: i386 amd64 source
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu trusty updates mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: trusty-updates
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: trusty-security
+Version: 14.04
+Codename: trusty-security
+Architectures: i386 amd64 source
+Components: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu trusty mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: trusty-security
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: trusty-backports
+Version: 14.04
+Codename: trusty-backports
+Architectures: i386 amd64 source
+Components: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu trusty updates mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: trusty-backports
 

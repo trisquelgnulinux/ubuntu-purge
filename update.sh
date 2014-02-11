@@ -40,11 +40,12 @@ done
 
 echo Removing non free packages...
 rm list
-sh purge.sh hardy robur
+#sh purge.sh hardy robur
 sh purge.sh lucid taranis
-sh purge.sh natty dagda
-sh purge.sh oneiric brigantia
+#sh purge.sh natty dagda
+#sh purge.sh oneiric brigantia
 sh purge.sh precise toutatis
+sh purge.sh trusty belenos
 echo DONE
 sh list.sh > list
 

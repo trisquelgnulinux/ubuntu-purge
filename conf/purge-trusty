@@ -58,6 +58,8 @@ block-modules-3.11.0-13-generic-di purge
 block-modules-3.11.0-14-generic-di purge
 block-modules-3.11.0-15-generic-di purge
 block-modules-3.13.0-6-generic-di purge
+block-modules-3.13.0-7-generic-di purge
+block-modules-3.13.0-8-generic-di purge
 block-modules-3.2.0-23-generic-di purge
 block-modules-3.2.0-23-generic-pae-di purge
 block-modules-3.2.0-23-virtual-di purge
@@ -192,6 +194,9 @@ bombono-dvd-data purge
 bombono-dvd purge
 bootstrap-base purge
 browser-plugin-gnash purge
+bumblebee-dbg purge
+bumblebee-nvidia purge
+bumblebee purge
 capiutils purge
 capplets-data purge
 casper purge
@@ -239,6 +244,8 @@ crypto-modules-3.11.0-13-generic-di purge
 crypto-modules-3.11.0-14-generic-di purge
 crypto-modules-3.11.0-15-generic-di purge
 crypto-modules-3.13.0-6-generic-di purge
+crypto-modules-3.13.0-7-generic-di purge
+crypto-modules-3.13.0-8-generic-di purge
 crypto-modules-3.2.0-23-generic-di purge
 crypto-modules-3.2.0-23-generic-pae-di purge
 crypto-modules-3.2.0-23-virtual-di purge
@@ -379,7 +386,6 @@ db5.1-doc purge
 db5.1-sql-util purge
 db5.1-util purge
 db purge
-dbus-python purge
 dcoprss purge
 debian-installer purge
 debian-installer-udebs purge
@@ -411,6 +417,7 @@ edubuntu-menueditor purge
 edubuntu-menus purge
 edubuntu-meta purge
 edubuntu-wallpapers purge
+efilinux-signed purge
 epiphany-browser-data purge
 epiphany-browser-dbg purge
 epiphany-browser-dev purge
@@ -452,6 +459,8 @@ fat-modules-3.11.0-13-generic-di purge
 fat-modules-3.11.0-14-generic-di purge
 fat-modules-3.11.0-15-generic-di purge
 fat-modules-3.13.0-6-generic-di purge
+fat-modules-3.13.0-7-generic-di purge
+fat-modules-3.13.0-8-generic-di purge
 fat-modules-3.2.0-23-generic-di purge
 fat-modules-3.2.0-23-generic-pae-di purge
 fat-modules-3.2.0-23-virtual-di purge
@@ -586,6 +595,8 @@ fb-modules-3.11.0-13-generic-di purge
 fb-modules-3.11.0-14-generic-di purge
 fb-modules-3.11.0-15-generic-di purge
 fb-modules-3.13.0-6-generic-di purge
+fb-modules-3.13.0-7-generic-di purge
+fb-modules-3.13.0-8-generic-di purge
 fb-modules-3.2.0-23-generic-di purge
 fb-modules-3.2.0-23-generic-pae-di purge
 fb-modules-3.2.0-23-virtual-di purge
@@ -716,7 +727,6 @@ fb-modules-3.8.0-32-generic-di purge
 fb-modules-3.8.0-33-generic-di purge
 fb-modules-3.8.0-34-generic-di purge
 fb-modules-3.8.0-35-generic-di purge
-fglrx-installer-experimental-13 purge
 fglrx-pxpress purge
 fife purge
 file-roller purge
@@ -730,7 +740,6 @@ firefox-globalmenu purge
 firefox-gnome-support-dbg purge
 firefox-gnome-support purge
 firefox-locale-af purge
-firefox-locale-an purge
 firefox-locale-ar purge
 firefox-locale-as purge
 firefox-locale-ast purge
@@ -806,7 +815,6 @@ firefox-locale-th purge
 firefox-locale-tr purge
 firefox-locale-uk purge
 firefox-locale-vi purge
-firefox-locale-xh purge
 firefox-locale-zh-hans purge
 firefox-locale-zh-hant purge
 firefox-locale-zu purge
@@ -817,6 +825,8 @@ firewire-core-modules-3.11.0-13-generic-di purge
 firewire-core-modules-3.11.0-14-generic-di purge
 firewire-core-modules-3.11.0-15-generic-di purge
 firewire-core-modules-3.13.0-6-generic-di purge
+firewire-core-modules-3.13.0-7-generic-di purge
+firewire-core-modules-3.13.0-8-generic-di purge
 firewire-core-modules-3.2.0-23-generic-di purge
 firewire-core-modules-3.2.0-23-generic-pae-di purge
 firewire-core-modules-3.2.0-24-generic-di purge
@@ -920,6 +930,8 @@ floppy-modules-3.11.0-13-generic-di purge
 floppy-modules-3.11.0-14-generic-di purge
 floppy-modules-3.11.0-15-generic-di purge
 floppy-modules-3.13.0-6-generic-di purge
+floppy-modules-3.13.0-7-generic-di purge
+floppy-modules-3.13.0-8-generic-di purge
 floppy-modules-3.2.0-23-generic-di purge
 floppy-modules-3.2.0-23-generic-pae-di purge
 floppy-modules-3.2.0-23-virtual-di purge
@@ -1057,6 +1069,8 @@ fs-core-modules-3.11.0-13-generic-di purge
 fs-core-modules-3.11.0-14-generic-di purge
 fs-core-modules-3.11.0-15-generic-di purge
 fs-core-modules-3.13.0-6-generic-di purge
+fs-core-modules-3.13.0-7-generic-di purge
+fs-core-modules-3.13.0-8-generic-di purge
 fs-core-modules-3.2.0-23-generic-di purge
 fs-core-modules-3.2.0-23-generic-pae-di purge
 fs-core-modules-3.2.0-23-virtual-di purge
@@ -1191,6 +1205,8 @@ fs-secondary-modules-3.11.0-13-generic-di purge
 fs-secondary-modules-3.11.0-14-generic-di purge
 fs-secondary-modules-3.11.0-15-generic-di purge
 fs-secondary-modules-3.13.0-6-generic-di purge
+fs-secondary-modules-3.13.0-7-generic-di purge
+fs-secondary-modules-3.13.0-8-generic-di purge
 fs-secondary-modules-3.2.0-23-generic-di purge
 fs-secondary-modules-3.2.0-23-generic-pae-di purge
 fs-secondary-modules-3.2.0-23-virtual-di purge
@@ -1366,7 +1382,6 @@ gdm purge
 genisoimage purge
 gfxboot-theme-ubuntu purge
 gir1.0-evince-2.32 purge
-gir1.0-gtk-2.0 purge
 gir1.2-epiphany-3.4 purge
 gir1.2-evince-2.32 purge
 gir1.2-evince-3.0 purge
@@ -1374,7 +1389,6 @@ gir1.2-gdesktopenums-3.0 purge
 gir1.2-gdm-1.0 purge
 gir1.2-gmenu-3.0 purge
 gir1.2-gnomebluetooth-1.0 purge
-gir1.2-gtk-2.0 purge
 gir1.2-launchpad-integration-3.0 purge
 gir1.2-nautilus-3.0 purge
 gir1.2-panelapplet-4.0 purge
@@ -1472,9 +1486,6 @@ grub-xen purge
 gsettings-desktop-schemas-dev purge
 gsettings-desktop-schemas purge
 gtali purge
-gtk2.0-examples purge
-gtk+2.0 purge
-gtk2-engines-pixbuf purge
 handbrake-cli purge
 handbrake-dbg purge
 handbrake purge
@@ -1511,6 +1522,8 @@ input-modules-3.11.0-13-generic-di purge
 input-modules-3.11.0-14-generic-di purge
 input-modules-3.11.0-15-generic-di purge
 input-modules-3.13.0-6-generic-di purge
+input-modules-3.13.0-7-generic-di purge
+input-modules-3.13.0-8-generic-di purge
 input-modules-3.2.0-23-generic-di purge
 input-modules-3.2.0-23-generic-pae-di purge
 input-modules-3.2.0-24-generic-di purge
@@ -1614,6 +1627,8 @@ ipmi-modules-3.11.0-13-generic-di purge
 ipmi-modules-3.11.0-14-generic-di purge
 ipmi-modules-3.11.0-15-generic-di purge
 ipmi-modules-3.13.0-6-generic-di purge
+ipmi-modules-3.13.0-7-generic-di purge
+ipmi-modules-3.13.0-8-generic-di purge
 ipmi-modules-3.2.0-23-generic-di purge
 ipmi-modules-3.2.0-23-generic-pae-di purge
 ipmi-modules-3.2.0-24-generic-di purge
@@ -1718,6 +1733,8 @@ irda-modules-3.11.0-13-generic-di purge
 irda-modules-3.11.0-14-generic-di purge
 irda-modules-3.11.0-15-generic-di purge
 irda-modules-3.13.0-6-generic-di purge
+irda-modules-3.13.0-7-generic-di purge
+irda-modules-3.13.0-8-generic-di purge
 irda-modules-3.2.0-23-generic-di purge
 irda-modules-3.2.0-23-generic-pae-di purge
 irda-modules-3.2.0-23-virtual-di purge
@@ -1877,6 +1894,8 @@ kernel-image-3.11.0-13-generic-di purge
 kernel-image-3.11.0-14-generic-di purge
 kernel-image-3.11.0-15-generic-di purge
 kernel-image-3.13.0-6-generic-di purge
+kernel-image-3.13.0-7-generic-di purge
+kernel-image-3.13.0-8-generic-di purge
 kernel-image-3.2.0-23-generic-di purge
 kernel-image-3.2.0-23-generic-pae-di purge
 kernel-image-3.2.0-23-virtual-di purge
@@ -2010,6 +2029,9 @@ kernel-image-3.8.0-35-generic-di purge
 kernel-signed-image-3.11.0-13-generic-di purge
 kernel-signed-image-3.11.0-14-generic-di purge
 kernel-signed-image-3.11.0-15-generic-di purge
+kernel-signed-image-3.13.0-6-generic-di purge
+kernel-signed-image-3.13.0-7-generic-di purge
+kernel-signed-image-3.13.0-8-generic-di purge
 kernel-signed-image-3.5.0-19-generic-di purge
 kernel-signed-image-3.5.0-21-generic-di purge
 kernel-signed-image-3.5.0-22-generic-di purge
@@ -2092,6 +2114,14 @@ libconfig-dev purge
 libconfig++-dev purge
 libconfig-doc purge
 libconfig purge
+libcublas5.0 purge
+libcudart5.0 purge
+libcufft5.0 purge
+libcuinj32-5.0 purge
+libcuinj64-5.0 purge
+libcupti5.0 purge
+libcurand5.0 purge
+libcusparse5.0 purge
 libdb4.7-dbg purge
 libdb4.7-dev purge
 libdb4.7++-dev purge
@@ -2142,11 +2172,6 @@ libevview1 purge
 libevview2 purge
 libevview3 purge
 libevview-dev purge
-libgail18 purge
-libgail-common purge
-libgail-dbg purge
-libgail-dev purge
-libgail-doc purge
 libgdm1 purge
 libgdm-dev purge
 libgnome-bluetooth11 purge
@@ -2168,16 +2193,6 @@ libgnome-speech7 purge
 libgnome-speech-dev purge
 libgnome-window-settings1 purge
 libgnome-window-settings-dev purge
-libgtk2.0-0-dbg purge
-libgtk2.0-0 purge
-libgtk2.0-0-udeb purge
-libgtk2.0-bin purge
-libgtk2.0-common purge
-libgtk2.0-dev purge
-libgtk2.0-doc purge
-libgtk-directfb-2.0-0 purge
-libgtk-directfb-2.0-0-udeb purge
-libgtk-directfb-2.0-dev purge
 libhpmud0 purge
 libhpmud-dev purge
 libkopete4 purge
@@ -2209,6 +2224,8 @@ libnautilus-extension-dev purge
 libnewt0.52 purge
 libnewt-dev purge
 libnewt-pic purge
+libnpp5.0 purge
+libnvtoolsext5.0 purge
 libpanel-applet-4-0 purge
 libpanel-applet-4-dev purge
 libpanel-applet-4-doc purge
@@ -2803,10 +2820,14 @@ linux-backports-modules-net-3.2.0-58-virtual purge
 linux-backports-modules-net-precise-generic-pae purge
 linux-backports-modules-net-precise-generic purge
 linux-backports-modules-net-precise-server purge
+linux-chromebook purge
 linux-crashdump purge
 linux-current-generic purge
 linux-doc purge
+linux-exynos5 purge
+linux-firmware-grouper purge
 linux-firmware purge
+linux-flo purge
 linux-generic-lts-quantal-eol-upgrade purge
 linux-generic-lts-quantal purge
 linux-generic-lts-raring-eol-upgrade purge
@@ -2816,6 +2837,10 @@ linux-generic-lts-saucy purge
 linux-generic-lts-trusty purge
 linux-generic-pae purge
 linux-generic purge
+linux-goldfish-headers-3.4.0-1 purge
+linux-goldfish purge
+linux-goldfish-tools-3.4.0-1 purge
+linux-grouper purge
 linux-headers-3.11.0-13-generic purge
 linux-headers-3.11.0-13 purge
 linux-headers-3.11.0-14-generic purge
@@ -2825,6 +2850,12 @@ linux-headers-3.11.0-15 purge
 linux-headers-3.13.0-6-generic purge
 linux-headers-3.13.0-6-lowlatency purge
 linux-headers-3.13.0-6 purge
+linux-headers-3.13.0-7-generic purge
+linux-headers-3.13.0-7-lowlatency purge
+linux-headers-3.13.0-7 purge
+linux-headers-3.13.0-8-generic purge
+linux-headers-3.13.0-8-lowlatency purge
+linux-headers-3.13.0-8 purge
 linux-headers-3.2.0-23-generic-pae purge
 linux-headers-3.2.0-23-generic purge
 linux-headers-3.2.0-23-lowlatency-pae purge
@@ -2989,6 +3020,7 @@ linux-headers-3.2.0-58-lowlatency-pae purge
 linux-headers-3.2.0-58-lowlatency purge
 linux-headers-3.2.0-58 purge
 linux-headers-3.2.0-58-virtual purge
+linux-headers-3.4.0-1-goldfish purge
 linux-headers-3.5.0-18-generic purge
 linux-headers-3.5.0-18 purge
 linux-headers-3.5.0-19-generic purge
@@ -3069,6 +3101,7 @@ linux-headers-generic-lts-saucy purge
 linux-headers-generic-lts-trusty purge
 linux-headers-generic-pae purge
 linux-headers-generic purge
+linux-headers-goldfish purge
 linux-headers-lbm-3.2.0-23-generic-pae purge
 linux-headers-lbm-3.2.0-23-generic purge
 linux-headers-lbm-3.2.0-24-generic-pae purge
@@ -3161,6 +3194,10 @@ linux-image-3.11.0-14-generic purge
 linux-image-3.11.0-15-generic purge
 linux-image-3.13.0-6-generic purge
 linux-image-3.13.0-6-lowlatency purge
+linux-image-3.13.0-7-generic purge
+linux-image-3.13.0-7-lowlatency purge
+linux-image-3.13.0-8-generic purge
+linux-image-3.13.0-8-lowlatency purge
 linux-image-3.2.0-23-generic-pae purge
 linux-image-3.2.0-23-generic purge
 linux-image-3.2.0-23-lowlatency-pae purge
@@ -3294,6 +3331,7 @@ linux-image-3.2.0-58-generic purge
 linux-image-3.2.0-58-lowlatency-pae purge
 linux-image-3.2.0-58-lowlatency purge
 linux-image-3.2.0-58-virtual purge
+linux-image-3.4.0-1-goldfish purge
 linux-image-3.5.0-18-generic purge
 linux-image-3.5.0-19-generic purge
 linux-image-3.5.0-21-generic purge
@@ -3333,6 +3371,8 @@ linux-image-3.8.0-34-generic purge
 linux-image-3.8.0-35-generic purge
 linux-image-current-generic purge
 linux-image-extra-3.13.0-6-generic purge
+linux-image-extra-3.13.0-7-generic purge
+linux-image-extra-3.13.0-8-generic purge
 linux-image-extra-3.2.0-23-virtual purge
 linux-image-extra-3.2.0-24-virtual purge
 linux-image-extra-3.2.0-25-virtual purge
@@ -3371,6 +3411,7 @@ linux-image-generic-lts-saucy purge
 linux-image-generic-lts-trusty purge
 linux-image-generic-pae purge
 linux-image-generic purge
+linux-image-goldfish purge
 linux-image-hwe-generic purge
 linux-image-lowlatency-pae purge
 linux-image-lowlatency purge
@@ -3393,14 +3434,25 @@ linux-lts-saucy-tools-3.11.0-14 purge
 linux-lts-saucy-tools-3.11.0-15 purge
 linux-lts-saucy-tools-common purge
 linux-lts-saucy-udebs-generic purge
+linux-maguro purge
+linux-mako purge
+linux-manta purge
 linux-meta-ac100 purge
 linux-meta-armadaxp purge
+linux-meta-chromebook purge
+linux-meta-exynos5 purge
+linux-meta-flo purge
+linux-meta-goldfish purge
+linux-meta-grouper purge
 linux-meta-linaro-lt-mx5 purge
 linux-meta-linaro purge
 linux-meta-lowlatency purge
 linux-meta-lts-quantal purge
 linux-meta-lts-raring purge
 linux-meta-lts-saucy purge
+linux-meta-maguro purge
+linux-meta-mako purge
+linux-meta-manta purge
 linux-meta purge
 linux-meta-qcm-msm purge
 linux-meta-ti-omap4 purge
@@ -3419,6 +3471,9 @@ linux-signed-generic purge
 linux-signed-image-3.11.0-13-generic purge
 linux-signed-image-3.11.0-14-generic purge
 linux-signed-image-3.11.0-15-generic purge
+linux-signed-image-3.13.0-6-generic purge
+linux-signed-image-3.13.0-7-generic purge
+linux-signed-image-3.13.0-8-generic purge
 linux-signed-image-3.5.0-19-generic purge
 linux-signed-image-3.5.0-21-generic purge
 linux-signed-image-3.5.0-22-generic purge
@@ -3463,6 +3518,7 @@ linux-signed-image-generic purge
 linux-signed-lts-quantal purge
 linux-signed-lts-raring purge
 linux-signed-lts-saucy purge
+linux-signed purge
 linux-source-3.13.0 purge
 linux-source-3.2.0 purge
 linux-source purge
@@ -3473,6 +3529,12 @@ linux-tools-3.11.0-15-generic purge
 linux-tools-3.13.0-6-generic purge
 linux-tools-3.13.0-6-lowlatency purge
 linux-tools-3.13.0-6 purge
+linux-tools-3.13.0-7-generic purge
+linux-tools-3.13.0-7-lowlatency purge
+linux-tools-3.13.0-7 purge
+linux-tools-3.13.0-8-generic purge
+linux-tools-3.13.0-8-lowlatency purge
+linux-tools-3.13.0-8 purge
 linux-tools-3.2.0-23 purge
 linux-tools-3.2.0-24 purge
 linux-tools-3.2.0-25 purge
@@ -3504,6 +3566,7 @@ linux-tools-3.2.0-55 purge
 linux-tools-3.2.0-56 purge
 linux-tools-3.2.0-57 purge
 linux-tools-3.2.0-58 purge
+linux-tools-3.4.0-1-goldfish purge
 linux-tools-3.5.0-23 purge
 linux-tools-3.5.0-24 purge
 linux-tools-3.5.0-25 purge
@@ -3541,6 +3604,7 @@ linux-tools-common purge
 linux-tools-generic-lts-saucy purge
 linux-tools-generic-lts-trusty purge
 linux-tools-generic purge
+linux-tools-goldfish purge
 linux-tools-lowlatency purge
 linux-tools-lts-quantal purge
 linux-tools-lts-raring purge
@@ -3596,6 +3660,8 @@ md-modules-3.11.0-13-generic-di purge
 md-modules-3.11.0-14-generic-di purge
 md-modules-3.11.0-15-generic-di purge
 md-modules-3.13.0-6-generic-di purge
+md-modules-3.13.0-7-generic-di purge
+md-modules-3.13.0-8-generic-di purge
 md-modules-3.2.0-23-generic-di purge
 md-modules-3.2.0-23-generic-pae-di purge
 md-modules-3.2.0-23-virtual-di purge
@@ -3732,6 +3798,8 @@ message-modules-3.11.0-13-generic-di purge
 message-modules-3.11.0-14-generic-di purge
 message-modules-3.11.0-15-generic-di purge
 message-modules-3.13.0-6-generic-di purge
+message-modules-3.13.0-7-generic-di purge
+message-modules-3.13.0-8-generic-di purge
 message-modules-3.2.0-23-generic-di purge
 message-modules-3.2.0-23-generic-pae-di purge
 message-modules-3.2.0-23-virtual-di purge
@@ -3873,6 +3941,8 @@ mouse-modules-3.11.0-13-generic-di purge
 mouse-modules-3.11.0-14-generic-di purge
 mouse-modules-3.11.0-15-generic-di purge
 mouse-modules-3.13.0-6-generic-di purge
+mouse-modules-3.13.0-7-generic-di purge
+mouse-modules-3.13.0-8-generic-di purge
 mouse-modules-3.2.0-23-generic-di purge
 mouse-modules-3.2.0-23-generic-pae-di purge
 mouse-modules-3.2.0-23-virtual-di purge
@@ -4021,6 +4091,8 @@ multipath-modules-3.11.0-13-generic-di purge
 multipath-modules-3.11.0-14-generic-di purge
 multipath-modules-3.11.0-15-generic-di purge
 multipath-modules-3.13.0-6-generic-di purge
+multipath-modules-3.13.0-7-generic-di purge
+multipath-modules-3.13.0-8-generic-di purge
 multipath-modules-3.2.0-23-generic-di purge
 multipath-modules-3.2.0-23-generic-pae-di purge
 multipath-modules-3.2.0-23-virtual-di purge
@@ -4169,6 +4241,8 @@ nfs-modules-3.11.0-13-generic-di purge
 nfs-modules-3.11.0-14-generic-di purge
 nfs-modules-3.11.0-15-generic-di purge
 nfs-modules-3.13.0-6-generic-di purge
+nfs-modules-3.13.0-7-generic-di purge
+nfs-modules-3.13.0-8-generic-di purge
 nfs-modules-3.2.0-23-generic-di purge
 nfs-modules-3.2.0-23-generic-pae-di purge
 nfs-modules-3.2.0-24-generic-di purge
@@ -4273,6 +4347,8 @@ nic-modules-3.11.0-13-generic-di purge
 nic-modules-3.11.0-14-generic-di purge
 nic-modules-3.11.0-15-generic-di purge
 nic-modules-3.13.0-6-generic-di purge
+nic-modules-3.13.0-7-generic-di purge
+nic-modules-3.13.0-8-generic-di purge
 nic-modules-3.2.0-23-generic-di purge
 nic-modules-3.2.0-23-generic-pae-di purge
 nic-modules-3.2.0-23-virtual-di purge
@@ -4407,6 +4483,8 @@ nic-pcmcia-modules-3.11.0-13-generic-di purge
 nic-pcmcia-modules-3.11.0-14-generic-di purge
 nic-pcmcia-modules-3.11.0-15-generic-di purge
 nic-pcmcia-modules-3.13.0-6-generic-di purge
+nic-pcmcia-modules-3.13.0-7-generic-di purge
+nic-pcmcia-modules-3.13.0-8-generic-di purge
 nic-pcmcia-modules-3.2.0-23-generic-di purge
 nic-pcmcia-modules-3.2.0-23-generic-pae-di purge
 nic-pcmcia-modules-3.2.0-24-generic-di purge
@@ -4510,6 +4588,8 @@ nic-shared-modules-3.11.0-13-generic-di purge
 nic-shared-modules-3.11.0-14-generic-di purge
 nic-shared-modules-3.11.0-15-generic-di purge
 nic-shared-modules-3.13.0-6-generic-di purge
+nic-shared-modules-3.13.0-7-generic-di purge
+nic-shared-modules-3.13.0-8-generic-di purge
 nic-shared-modules-3.2.0-23-generic-di purge
 nic-shared-modules-3.2.0-23-generic-pae-di purge
 nic-shared-modules-3.2.0-23-virtual-di purge
@@ -4644,6 +4724,8 @@ nic-usb-modules-3.11.0-13-generic-di purge
 nic-usb-modules-3.11.0-14-generic-di purge
 nic-usb-modules-3.11.0-15-generic-di purge
 nic-usb-modules-3.13.0-6-generic-di purge
+nic-usb-modules-3.13.0-7-generic-di purge
+nic-usb-modules-3.13.0-8-generic-di purge
 nic-usb-modules-3.2.0-23-generic-di purge
 nic-usb-modules-3.2.0-23-generic-pae-di purge
 nic-usb-modules-3.2.0-24-generic-di purge
@@ -4752,7 +4834,9 @@ nvidia-experimental-310-dev purge
 nvidia-experimental-310 purge
 nvidia-graphics-drivers-experimental-310 purge
 nvidia-graphics-drivers-tegra purge
+nvidia-nsight purge
 nvidia-prime purge
+nvidia-profiler purge
 nvidia-settings-304 purge
 nvidia-settings-304-updates purge
 nvidia-settings-310 purge
@@ -4785,6 +4869,8 @@ parport-modules-3.11.0-13-generic-di purge
 parport-modules-3.11.0-14-generic-di purge
 parport-modules-3.11.0-15-generic-di purge
 parport-modules-3.13.0-6-generic-di purge
+parport-modules-3.13.0-7-generic-di purge
+parport-modules-3.13.0-8-generic-di purge
 parport-modules-3.2.0-23-generic-di purge
 parport-modules-3.2.0-23-generic-pae-di purge
 parport-modules-3.2.0-23-virtual-di purge
@@ -4919,6 +5005,8 @@ pata-modules-3.11.0-13-generic-di purge
 pata-modules-3.11.0-14-generic-di purge
 pata-modules-3.11.0-15-generic-di purge
 pata-modules-3.13.0-6-generic-di purge
+pata-modules-3.13.0-7-generic-di purge
+pata-modules-3.13.0-8-generic-di purge
 pata-modules-3.2.0-23-generic-di purge
 pata-modules-3.2.0-23-generic-pae-di purge
 pata-modules-3.2.0-24-generic-di purge
@@ -5022,6 +5110,8 @@ pcmcia-modules-3.11.0-13-generic-di purge
 pcmcia-modules-3.11.0-14-generic-di purge
 pcmcia-modules-3.11.0-15-generic-di purge
 pcmcia-modules-3.13.0-6-generic-di purge
+pcmcia-modules-3.13.0-7-generic-di purge
+pcmcia-modules-3.13.0-8-generic-di purge
 pcmcia-modules-3.2.0-23-generic-di purge
 pcmcia-modules-3.2.0-23-generic-pae-di purge
 pcmcia-modules-3.2.0-24-generic-di purge
@@ -5125,6 +5215,8 @@ pcmcia-storage-modules-3.11.0-13-generic-di purge
 pcmcia-storage-modules-3.11.0-14-generic-di purge
 pcmcia-storage-modules-3.11.0-15-generic-di purge
 pcmcia-storage-modules-3.13.0-6-generic-di purge
+pcmcia-storage-modules-3.13.0-7-generic-di purge
+pcmcia-storage-modules-3.13.0-8-generic-di purge
 pcmcia-storage-modules-3.2.0-23-generic-di purge
 pcmcia-storage-modules-3.2.0-23-generic-pae-di purge
 pcmcia-storage-modules-3.2.0-24-generic-di purge
@@ -5234,6 +5326,8 @@ plip-modules-3.11.0-13-generic-di purge
 plip-modules-3.11.0-14-generic-di purge
 plip-modules-3.11.0-15-generic-di purge
 plip-modules-3.13.0-6-generic-di purge
+plip-modules-3.13.0-7-generic-di purge
+plip-modules-3.13.0-8-generic-di purge
 plip-modules-3.2.0-23-generic-di purge
 plip-modules-3.2.0-23-generic-pae-di purge
 plip-modules-3.2.0-24-generic-di purge
@@ -5357,6 +5451,8 @@ ppp-modules-3.11.0-13-generic-di purge
 ppp-modules-3.11.0-14-generic-di purge
 ppp-modules-3.11.0-15-generic-di purge
 ppp-modules-3.13.0-6-generic-di purge
+ppp-modules-3.13.0-7-generic-di purge
+ppp-modules-3.13.0-8-generic-di purge
 ppp-modules-3.2.0-23-generic-di purge
 ppp-modules-3.2.0-23-generic-pae-di purge
 ppp-modules-3.2.0-24-generic-di purge
@@ -5465,8 +5561,6 @@ pyrit purge
 python3-apt-dbg purge
 python3-apt purge
 python3-commandnotfound purge
-python3-dbus-dbg purge
-python3-dbus purge
 python3-newt-dbg purge
 python3-newt purge
 python3-software-properties purge
@@ -5481,10 +5575,6 @@ python-changesettings purge
 python-commandnotfound purge
 python-compizconfig purge
 python-cupshelpers purge
-python-dbus-dbg purge
-python-dbus-dev purge
-python-dbus-doc purge
-python-dbus purge
 python-fife purge
 python-gmenu-dbg purge
 python-gmenu purge
@@ -5531,6 +5621,8 @@ sata-modules-3.11.0-13-generic-di purge
 sata-modules-3.11.0-14-generic-di purge
 sata-modules-3.11.0-15-generic-di purge
 sata-modules-3.13.0-6-generic-di purge
+sata-modules-3.13.0-7-generic-di purge
+sata-modules-3.13.0-8-generic-di purge
 sata-modules-3.2.0-23-generic-di purge
 sata-modules-3.2.0-23-generic-pae-di purge
 sata-modules-3.2.0-24-generic-di purge
@@ -5636,6 +5728,8 @@ scsi-modules-3.11.0-13-generic-di purge
 scsi-modules-3.11.0-14-generic-di purge
 scsi-modules-3.11.0-15-generic-di purge
 scsi-modules-3.13.0-6-generic-di purge
+scsi-modules-3.13.0-7-generic-di purge
+scsi-modules-3.13.0-8-generic-di purge
 scsi-modules-3.2.0-23-generic-di purge
 scsi-modules-3.2.0-23-generic-pae-di purge
 scsi-modules-3.2.0-23-virtual-di purge
@@ -5780,6 +5874,8 @@ serial-modules-3.11.0-13-generic-di purge
 serial-modules-3.11.0-14-generic-di purge
 serial-modules-3.11.0-15-generic-di purge
 serial-modules-3.13.0-6-generic-di purge
+serial-modules-3.13.0-7-generic-di purge
+serial-modules-3.13.0-8-generic-di purge
 serial-modules-3.2.0-23-generic-di purge
 serial-modules-3.2.0-23-generic-pae-di purge
 serial-modules-3.2.0-24-generic-di purge
@@ -5895,6 +5991,8 @@ speakup-modules-3.11.0-13-generic-di purge
 speakup-modules-3.11.0-14-generic-di purge
 speakup-modules-3.11.0-15-generic-di purge
 speakup-modules-3.13.0-6-generic-di purge
+speakup-modules-3.13.0-7-generic-di purge
+speakup-modules-3.13.0-8-generic-di purge
 speakup-modules-3.2.0-23-generic-di purge
 speakup-modules-3.2.0-23-generic-pae-di purge
 speakup-modules-3.2.0-24-generic-di purge
@@ -5999,6 +6097,8 @@ squashfs-modules-3.11.0-13-generic-di purge
 squashfs-modules-3.11.0-14-generic-di purge
 squashfs-modules-3.11.0-15-generic-di purge
 squashfs-modules-3.13.0-6-generic-di purge
+squashfs-modules-3.13.0-7-generic-di purge
+squashfs-modules-3.13.0-8-generic-di purge
 squashfs-modules-3.2.0-23-generic-di purge
 squashfs-modules-3.2.0-23-generic-pae-di purge
 squashfs-modules-3.2.0-23-virtual-di purge
@@ -6132,11 +6232,14 @@ squashfs-modules-3.8.0-35-generic-di purge
 ssh-askpass-gnome purge
 ssh-krb5 purge
 ssh purge
+starfighter-data purge
 starfighter purge
 storage-core-modules-3.11.0-13-generic-di purge
 storage-core-modules-3.11.0-14-generic-di purge
 storage-core-modules-3.11.0-15-generic-di purge
 storage-core-modules-3.13.0-6-generic-di purge
+storage-core-modules-3.13.0-7-generic-di purge
+storage-core-modules-3.13.0-8-generic-di purge
 storage-core-modules-3.2.0-23-generic-di purge
 storage-core-modules-3.2.0-23-generic-pae-di purge
 storage-core-modules-3.2.0-23-virtual-di purge
@@ -6271,6 +6374,7 @@ sugar-activities purge
 sugar-emulator purge
 sugar purge
 sugar-turtleart-activity purge
+sweethome3d-furniture-nonfree purge
 swell-foop purge
 swfdec-gnome purge
 swfdec-mozilla purge
@@ -6292,6 +6396,7 @@ ubiquity-frontend-debconf purge
 ubiquity-frontend-gtk purge
 ubiquity-frontend-kde purge
 ubiquity-frontend-mythbuntu purge
+ubiquity-plugin-ubuntuone purge
 ubiquity purge
 ubiquity-ubuntu-artwork purge
 ubufox purge
@@ -6326,6 +6431,8 @@ ubuntustudio-live-settings purge
 ubuntustudio-look purge
 ubuntustudio-menu purge
 ubuntustudio-meta purge
+ubuntustudio-photography purge
+ubuntustudio-publishing purge
 ubuntustudio-recording purge
 ubuntustudio-screensaver purge
 ubuntustudio-sounds purge
@@ -6342,6 +6449,9 @@ ubuntu-wallpapers-natty purge
 ubuntu-wallpapers-oneiric purge
 ubuntu-wallpapers-precise purge
 ubuntu-wallpapers purge
+ubuntu-wallpapers-quantal purge
+ubuntu-wallpapers-raring purge
+ubuntu-wallpapers-saucy purge
 uck purge
 unar purge
 unattended-upgrades purge
@@ -6395,6 +6505,8 @@ usb-modules-3.11.0-13-generic-di purge
 usb-modules-3.11.0-14-generic-di purge
 usb-modules-3.11.0-15-generic-di purge
 usb-modules-3.13.0-6-generic-di purge
+usb-modules-3.13.0-7-generic-di purge
+usb-modules-3.13.0-8-generic-di purge
 usb-modules-3.2.0-23-generic-di purge
 usb-modules-3.2.0-23-generic-pae-di purge
 usb-modules-3.2.0-24-generic-di purge
@@ -6501,6 +6613,8 @@ virtio-modules-3.11.0-13-generic-di purge
 virtio-modules-3.11.0-14-generic-di purge
 virtio-modules-3.11.0-15-generic-di purge
 virtio-modules-3.13.0-6-generic-di purge
+virtio-modules-3.13.0-7-generic-di purge
+virtio-modules-3.13.0-8-generic-di purge
 virtio-modules-3.2.0-23-generic-di purge
 virtio-modules-3.2.0-23-generic-pae-di purge
 virtio-modules-3.2.0-23-virtual-di purge
@@ -6655,6 +6769,8 @@ vlan-modules-3.11.0-13-generic-di purge
 vlan-modules-3.11.0-14-generic-di purge
 vlan-modules-3.11.0-15-generic-di purge
 vlan-modules-3.13.0-6-generic-di purge
+vlan-modules-3.13.0-7-generic-di purge
+vlan-modules-3.13.0-8-generic-di purge
 vlan-modules-3.2.0-23-generic-di purge
 vlan-modules-3.2.0-23-generic-pae-di purge
 vlan-modules-3.2.0-23-virtual-di purge
