@@ -6,28 +6,28 @@ Suite: lucid
 Components: main>main universe>main
 UDebComponents: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterList: install purge-lucid
+FilterSrcList: install purge-lucid
 
 Name: lucid-updates
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: lucid-updates
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterList: install purge-lucid
+FilterSrcList: install purge-lucid
 
 Name: lucid-security
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: lucid-security
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterList: install purge-lucid
+FilterSrcList: install purge-lucid
 
 Name: lucid-backports
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: lucid-backports
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterList: install purge-lucid
+FilterSrcList: install purge-lucid
 
 
 
@@ -38,28 +38,28 @@ Suite: precise
 Components: main>main universe>main
 UDebComponents: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterList: install purge-precise
+FilterSrcList: install purge-precise
 
 Name: precise-updates
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: precise-updates
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterList: install purge-precise
+FilterSrcList: install purge-precise
 
 Name: precise-security
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: precise-security
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterList: install purge-precise
+FilterSrcList: install purge-precise
 
 Name: precise-backports
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: precise-backports
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterList: install purge-precise
+FilterSrcList: install purge-precise
 
 
 Name: trusty
@@ -68,26 +68,26 @@ Suite: trusty
 Components: main>main universe>main
 UDebComponents: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterList: install purge-trusty
+FilterSrcList: install purge-trusty
 
 Name: trusty-updates
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: trusty-updates
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterList: install purge-trusty
+FilterSrcList: install purge-trusty
 
 Name: trusty-security
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: trusty-security
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterList: install purge-trusty
+FilterSrcList: install purge-trusty
 
 Name: trusty-backports
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: trusty-backports
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterList: install purge-trusty
+FilterSrcList: install purge-trusty
 

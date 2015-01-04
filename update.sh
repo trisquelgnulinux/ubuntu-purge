@@ -16,8 +16,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-savelog logs/update.log
-exec &> logs/update.log
+doall(){
 
 date
 echo Updating...
@@ -31,21 +30,13 @@ else
     date > ERROR
 fi
 
-listpackages(){
-for dist in $1 $1-updates $1-security $1-backports
-do
-    reprepro list $dist >> list
-done
-}
-
 echo Removing non free packages...
 rm list
-#sh purge.sh hardy robur
 sh purge.sh lucid taranis
-#sh purge.sh natty dagda
-#sh purge.sh oneiric brigantia
 sh purge.sh precise toutatis
 sh purge.sh trusty belenos
 echo DONE
-sh list.sh > list
+}
 
+savelog logs/update.log
+doall 2>&1 | tee logs/update.log

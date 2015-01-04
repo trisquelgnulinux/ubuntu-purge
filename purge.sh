@@ -18,13 +18,9 @@
 
 set -e
 
-[ $3"1" = "test1" ] && TEST=echo
-
 DIST=$1
 CODENAME=$2
-#REPLACE=$(ls -1 /home/systems/devel/helpers/$DIST/make-* | sed 's:^.*/::; s:make-::')
 REPLACE=$(git --git-dir=/home/systems/devel/.git ls-tree -r --name-only $CODENAME|grep helpers/make-|sed 's/.*make-//')
-NETINST="apt-setup base-installer choose-mirror debian-installer main-menu netcfg net-retriever pkgsel"
 
 if [ -x purge-$DIST ] 
 then
@@ -33,28 +29,75 @@ else
     exit 1
 fi
 
-PACKAGES="$REPLACE $NETINST $REMOVE $UNBRAND"
+echo listing $DIST
+reprepro -A source list $DIST | cut -d' ' -f2 > list1
+reprepro -A source list $DIST-updates | cut -d' ' -f2 >> list1
+reprepro -A source list $DIST-security | cut -d' ' -f2 >> list1
+reprepro -A source list $DIST-backports | cut -d' ' -f2 >> list1
+sort -u < list1 > list
 
-for SOURCE in $PACKAGES
-do
-    ls pool/*/*/${SOURCE}/ > /dev/null 2>&1 || continue
-    echo Found $SOURCE directory
-    for package in $(ls -1 pool/*/*/${SOURCE}/* 2>/dev/null | awk -F '/' '{print $5}'|awk -F '_' '{print $1}'|sort -u  )
-    do
-        echo Found $package package
-        for repo in $DIST $DIST-updates $DIST-security $DIST-backports
-        do
-            if $TEST reprepro -v remove $repo $package 2>&1 | grep -q "Not removed"
-            then
-                echo E: Not in $repo
-            else
-                echo Blacklisting $package
-                echo "$package purge" >> conf/purge-$DIST
-            fi
+PACKAGES="$REPLACE $REMOVE $UNBRAND"
+
+echo Searching for packages to remove in $DIST
+for PACKAGE in $PACKAGES; do
+
+    if echo $PACKAGE |grep -q '\*'; then
+        PACKAGE=$(echo $PACKAGE |sed 's/-*//; s/*//')
+        for REPO in $DIST $DIST-updates $DIST-security $DIST-backports; do
+            EXTRAPACKAGES=$(egrep "^$REPO\|" list |grep " $PACKAGE"|cut -d" " -f2)
+            for EXTRA in $EXTRAPACKAGES; do
+                echo "$EXTRA purge" >> conf/purge-$DIST
+                echo 1 reprepro -v removesrc $REPO $EXTRA
+                reprepro -v removesrc $REPO $EXTRA
+            done
         done
-     done
+    fi
+
+
+    echo "$PACKAGE purge" >> conf/purge-$DIST
+    for REPO in $DIST $DIST-updates $DIST-security $DIST-backports; do
+        if grep "^$PACKAGE$" -q list; then
+            echo 2 reprepro -v removesrc $REPO $PACKAGE
+            reprepro -v removesrc $REPO $PACKAGE
+        fi
+    done
 done
 
-echo Sorting blacklist
-sort -u < conf/purge-$DIST > /tmp/purge-$DIST
-mv /tmp/purge-$DIST conf/purge-$DIST
+for file in conf/purge*; do
+    cat $file | sort -u > $file.tmp
+    mv $file.tmp $file
+done
+
+exit
+
+#--------------------------------------------------------------
+
+echo Searching for missing packages in $DIST
+rm -f /tmp/sourcemissing
+for REPO in $DIST $DIST-updates $DIST-security $DIST-backports; do
+  reprepro sourcemissing $REPO >> /tmp/sourcemissing
+done
+
+while read line; do
+
+dist=$(echo $line | cut -d" " -f1 )
+sourcepkg=$(echo $line | cut -d" " -f2 )
+package=$(echo $line | cut -d" " -f4|sed 's_.*/__; s/_.*//' )
+
+dir=$(echo $line | cut -d" " -f4 | sed 's/\(.*\)\/.*/\1/' )
+
+if ! ls $dir|grep dsc -q; then
+
+echo "$sourcepkg purge" conf/purge-$dist
+echo "$sourcepkg purge" >> conf/purge-$dist
+
+fi
+
+#echo reprepro -v remove $dist $package
+#reprepro -v remove $dist $package
+
+done < /tmp/sourcemissing
+#--------------------------------------------------------------
+
+
+
