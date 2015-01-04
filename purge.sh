@@ -20,7 +20,7 @@ set -e
 
 DIST=$1
 CODENAME=$2
-REPLACE=$(git --git-dir=/home/systems/devel/.git ls-tree -r --name-only $CODENAME|grep helpers/make-|sed 's/.*make-//')
+REPLACE=$(git --git-dir=/home/ubuntu/package-helpers/.git ls-tree -r --name-only $CODENAME|grep helpers/make-|sed 's/.*make-//')
 
 if [ -x purge-$DIST ] 
 then

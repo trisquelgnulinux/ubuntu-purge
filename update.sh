@@ -16,10 +16,17 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
+cd /home/ubuntu
+set -e
+set -x
+
 doall(){
 
 date
-echo Updating...
+echo Updating git package-helpers...
+git --git-dir=/home/ubuntu/package-helpers/.git pull --all
+
+echo Updating ubuntu mirrors...
 reprepro  -v -b . update
 if reprepro  -v -b . update
 then
