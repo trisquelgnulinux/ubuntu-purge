@@ -22,11 +22,10 @@ envyng-*
 fglrx-*
 freesci
 gfxboot-theme-ubuntu
+gnome-speech
 grub2-signed
 gstreamer0.10-pitfdll
 helix-player
-isdnactivecards
-isdnutils
 ivman
 jockey
 linux-fsl-imx51
@@ -61,11 +60,14 @@ linux-backports-modules-3.5.0
 linux-lts*
 linux-lts-quantal
 linux-lts-raring
+linux-lts-utopic
 linux-signed*
 linux-signed-lts-quantal 
 linux-signed-lts-raring
+linux-signed-lts-utopic
 linux-meta-lts-quantal 
 linux-meta-lts-raring
+linux-meta-lts-utopic
 linux-firmware*
 linux-firmware
 linux-linaro*
@@ -131,8 +133,12 @@ starfighter
 sweethome3d-furniture-nonfree
 tatan
 testdrive
+thunderbird
+thunderbird-couchdb
+thunderbird-locales
 unetbootin
 ubuntuone-client
+ubuntu-drivers-common
 ubuntu-restricted-extras
 rhythmbox-ubuntuone-music-store
 seamonkey
@@ -148,7 +154,8 @@ w9wm
 acetoneiso
 a2ps-perl-ja
 bibletime
-bibledit
+bibledit*
+biblememorizer
 bible-kjv
 winetricks
 "
@@ -157,7 +164,6 @@ UNBRAND="
 blubuntu
 edubuntu
 kubuntu
-ubuntu-gdm-themes
 ubuntu-sounds
 ubuntustudio
 ubuntu-wallpapers
@@ -200,7 +206,6 @@ python-meminfo-total
 ubuntustudio-look
 ubuntustudio-theme
 ubuntustudio-wallpapers
-ubuntustudio-gdm-theme
 plymouth-theme-ubuntustudio
 ubuntustudio-screensaver
 ubuntustudio-sounds

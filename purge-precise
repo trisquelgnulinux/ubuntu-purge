@@ -51,11 +51,14 @@ linux-backports-modules-3.5.0
 linux-lts*
 linux-lts-quantal
 linux-lts-raring
+linux-lts-utopic
 linux-signed*
 linux-signed-lts-quantal 
 linux-signed-lts-raring
+linux-signed-lts-utopic
 linux-meta-lts-quantal 
 linux-meta-lts-raring
+linux-meta-lts-utopic
 linux-firmware*
 linux-firmware
 linux-linaro*
@@ -118,6 +121,9 @@ software-center
 starfighter
 tatan
 testdrive
+thunderbird
+thunderbird-couchdb
+thunderbird-locales
 unetbootin
 ubuntuone-client
 ubuntu-restricted-extras
@@ -135,7 +141,8 @@ w9wm
 acetoneiso
 a2ps-perl-ja
 bibletime
-bibledit
+bibledit*
+biblememorizer
 bible-kjv
 winetricks
 "

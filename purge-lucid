@@ -3,8 +3,7 @@
 REMOVE="
 aee
 afio
-app-install-data-commercial
-app-install-data-partner
+app-install-data*
 b43-fwcutter
 bcm43xx-fwcutter
 chromium-codecs-ffmpeg
@@ -15,7 +14,7 @@ gdecrypt
 envyng-core
 envyng-gtk
 envyng-qt
-fglrx-installer
+fglrx*
 freesci
 gfxboot-theme-ubuntu
 gstreamer0.10-pitfdll
@@ -26,6 +25,7 @@ ivman
 jockey
 linux-fsl-imx51
 linux-meta-fsl-imx51
+linux-meta*
 linux-meta-lts-backport-maverick
 linux-meta-lts-backport-natty
 linux-meta-lts-backport-oneiric
@@ -33,11 +33,14 @@ linux-meta-mvl-dove
 linux-mvl-dove
 linux-ec2
 linux-meta-ec2
+linux-backports-modules*
 linux-backports-modules-2.6.31
 linux-backports-modules-2.6.32
-linux-firmware
+linux-firmware*
+linux-restricted*
 linux-lpia
 linux-lpia-meta
+linux-lts*
 linux-lts-backport-maverick
 linux-lts-backport-natty
 linux-lts-backport-oneiric
@@ -58,12 +61,12 @@ ndisgtk
 ndiswrapper
 nikto
 nvidia-common
-nvidia-graphics-drivers
+nvidia-graphics-drivers*
 nvidia-graphics-drivers-173
 nvidia-graphics-drivers-180
 nvidia-graphics-drivers-71
 nvidia-graphics-drivers-96
-nvidia-settings
+nvidia-settings*
 nvidia-xconfig
 ophcrack
 rhythmbox-ubuntuone-music-store
@@ -77,6 +80,9 @@ seamonkey
 starfighter
 tatan
 testdrive
+thunderbird
+thunderbird-couchdb
+thunderbird-locales
 unetbootin
 ubuntuone-client
 libubuntuone
@@ -90,7 +96,8 @@ w9wm
 acetoneiso
 a2ps-perl-ja
 bibletime
-bibledit
+bibledit*
+biblememorizer
 bible-kjv
 "
 
