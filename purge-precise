@@ -91,6 +91,8 @@ linux-meta-lts-saucy
 linux-signed-lts-saucy
 linux-lts-saucy
 mame
+maptransfer
+maptransfer-server
 mesademos
 moon
 ndisgtk
