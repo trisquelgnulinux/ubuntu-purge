@@ -23,6 +23,8 @@ set -x
 doall(){
 
 date
+echo Self updating from git...
+git --git-dir=/home/ubuntu/.git pull --all
 echo Updating git package-helpers...
 git --git-dir=/home/ubuntu/package-helpers/.git pull --all
 
