@@ -1,11 +1,16 @@
 #!/bin/sh
 
+# Non-free packages. Don't include packages for which a helper exists, only
+# packages that we want gone completely.
+
 REMOVE="
 aee
 afio
-app-install-data*
+app-install-data-commercial
+app-install-data-partner
 b43-fwcutter
 bcm43xx-fwcutter
+bnetd
 chromium-codecs-ffmpeg
 chromium-browser
 d4x
@@ -24,36 +29,15 @@ isdnutils
 ivman
 jockey
 linux-fsl-imx51
-linux-meta-fsl-imx51
-linux-meta*
-linux-meta-lts-backport-maverick
-linux-meta-lts-backport-natty
-linux-meta-lts-backport-oneiric
-linux-meta-mvl-dove
 linux-mvl-dove
 linux-ec2
-linux-meta-ec2
-linux-backports-modules*
-linux-backports-modules-2.6.31
-linux-backports-modules-2.6.32
 linux-firmware*
 linux-restricted*
-linux-lpia
-linux-lpia-meta
-linux-lts*
-linux-lts-backport-maverick
-linux-lts-backport-natty
-linux-lts-backport-oneiric
-linux-meta-rt
-linux-ports
-linux-ports-meta
+linux-lpia*
+linux-ports*
 linux-qcm-msm
-linux-meta-qcm-msm
-linux-restricted-modules
-linux-restricted-modules-rt
-linux-rt
+linux-rt*
 linux-ti-omap
-linux-meta-ti-omap
 linux-wlan-ng
 mesademos
 moon
@@ -62,13 +46,10 @@ ndiswrapper
 nikto
 nvidia-common
 nvidia-graphics-drivers*
-nvidia-graphics-drivers-173
-nvidia-graphics-drivers-180
-nvidia-graphics-drivers-71
-nvidia-graphics-drivers-96
 nvidia-settings*
 nvidia-xconfig
 ophcrack
+pvpgn
 rhythmbox-ubuntuone-music-store
 rman
 simutrans-pak128.britain
@@ -100,7 +81,24 @@ bibletime
 bibledit*
 biblememorizer
 bible-kjv
+z88dk
 "
+
+# Packages that we have helpers for but we don't want to risk pulling anyway
+
+FAILSAFE="
+app-install-data*
+linux
+linux-lowlatency*
+linux-rt*
+linux-lts*
+linux-meta*
+linux-signed*
+linux-restricted*
+linux-backports-modules*
+"
+
+# Free software packages or metapackages only relevant to branding Ubuntu
 
 UNBRAND="
 blubuntu
@@ -145,8 +143,6 @@ ubuntustudio-menu
 ubuntustudio-icon-theme
 ubuntustudio-default-settings
 ubuntustudio-controls
-python-changesettings
-python-meminfo-total
 ubuntustudio-look
 ubuntustudio-theme
 ubuntustudio-wallpapers
@@ -155,5 +151,4 @@ plymouth-theme-ubuntustudio
 ubuntustudio-screensaver
 ubuntustudio-sounds
 usplash-theme-ubuntustudio
-z88dk
 "

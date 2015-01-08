@@ -36,7 +36,7 @@ reprepro -A source list $DIST-security | cut -d' ' -f2 >> list1
 reprepro -A source list $DIST-backports | cut -d' ' -f2 >> list1
 sort -u < list1 > list
 
-PACKAGES="$REPLACE $REMOVE $UNBRAND"
+PACKAGES="$REPLACE $REMOVE $UNBRAND $FAILSAFE"
 
 echo Searching for packages to remove in $DIST
 for PACKAGE in $PACKAGES; do
@@ -51,16 +51,15 @@ for PACKAGE in $PACKAGES; do
                 reprepro -v removesrc $REPO $EXTRA
             done
         done
+    else
+        echo "$PACKAGE purge" >> conf/purge-$DIST
+        for REPO in $DIST $DIST-updates $DIST-security $DIST-backports; do
+            if grep "^$PACKAGE$" -q list; then
+                echo 2 reprepro -v removesrc $REPO $PACKAGE
+                reprepro -v removesrc $REPO $PACKAGE
+            fi
+        done
     fi
-
-
-    echo "$PACKAGE purge" >> conf/purge-$DIST
-    for REPO in $DIST $DIST-updates $DIST-security $DIST-backports; do
-        if grep "^$PACKAGE$" -q list; then
-            echo 2 reprepro -v removesrc $REPO $PACKAGE
-            reprepro -v removesrc $REPO $PACKAGE
-        fi
-    done
 done
 
 for file in conf/purge*; do
