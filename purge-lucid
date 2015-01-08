@@ -4,6 +4,7 @@
 # packages that we want gone completely.
 
 REMOVE="
+abuse-sdl
 aee
 afio
 app-install-data-commercial
