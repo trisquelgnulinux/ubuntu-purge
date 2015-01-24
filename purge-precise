@@ -99,7 +99,6 @@ bibledit*
 biblememorizer
 bible-kjv
 winetricks
-z88dk
 "
 
 # Packages that we have helpers for but we don't want to risk pulling anyway
