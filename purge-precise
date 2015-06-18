@@ -126,7 +126,9 @@ UNBRAND="
 blubuntu
 edubuntu
 kubuntu
+kubuntu-docs
 ubufox
+ubuntu-docs
 ubuntu-gdm-themes
 ubuntu-sounds
 ubuntustudio
@@ -145,6 +147,7 @@ edubuntu-fonts
 edubuntu-artwork
 edubuntu-menus
 edubuntu-addon-meta
+fortunes-ubuntu-server
 uck
 xubuntu-artwork
 xubuntu-meta
