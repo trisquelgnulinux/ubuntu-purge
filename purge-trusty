@@ -27,6 +27,13 @@ cia-clients
 d4x
 easycrypt
 efilinux-signed
+emacs23
+emacs23-bin-common
+emacs23-common
+emacs23-common-non-dfsg
+emacs23-el
+emacs23-lucid
+emacs23-nox
 envyng-*
 fglrx-*
 freesci
