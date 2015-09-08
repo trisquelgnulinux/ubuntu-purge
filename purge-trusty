@@ -160,12 +160,14 @@ edubuntu-artwork
 edubuntu-menus
 edubuntu-addon-meta
 fortunes-ubuntu-server
+installation-guide
 uck
 xubuntu-artwork
 xubuntu-meta
 lubuntu-artwork
 lubuntu-meta
 lubuntu-default-settings 
+ubiquity-slideshow-ubuntu
 ubuntu-sugar-remix-meta
 ubuntustudio-audio
 ubuntustudio-desktop
@@ -186,5 +188,9 @@ ubuntustudio-wallpapers
 plymouth-theme-ubuntustudio
 ubuntustudio-screensaver
 ubuntustudio-sounds
+unity-chromium-extension
+unity-scope-chromiumbookmarks
 usplash-theme-ubuntustudio
+webaccounts-chromium-extension
+webaccounts-extension-common
 "
