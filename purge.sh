@@ -43,10 +43,10 @@ for PACKAGE in $PACKAGES; do
 
     if echo $PACKAGE |grep -q '\*'; then
         PACKAGE=$(echo $PACKAGE |sed 's/-*//; s/*//')
-        for REPO in $DIST $DIST-updates $DIST-security $DIST-backports; do
-            EXTRAPACKAGES=$(egrep "^$REPO\|" list |grep " $PACKAGE"|cut -d" " -f2)
-            for EXTRA in $EXTRAPACKAGES; do
-                echo "$EXTRA purge" >> conf/purge-$DIST
+        EXTRAPACKAGES=$(grep "^$PACKAGE" list || true)
+        for EXTRA in $EXTRAPACKAGES; do
+            echo "$EXTRA purge" >> conf/purge-$DIST
+            for REPO in $DIST $DIST-updates $DIST-security $DIST-backports; do
                 echo 1 reprepro -v removesrc $REPO $EXTRA
                 reprepro -v removesrc $REPO $EXTRA
             done
