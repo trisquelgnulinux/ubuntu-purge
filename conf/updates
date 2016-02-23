@@ -91,3 +91,32 @@ Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterSrcList: install purge-trusty
 
+Name: xenial
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: xenial
+Components: main>main universe>main
+UDebComponents: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterSrcList: install purge-xenial
+
+Name: xenial-updates
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: xenial-updates
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterSrcList: install purge-xenial
+
+Name: xenial-security
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: xenial-security
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterSrcList: install purge-xenial
+
+Name: xenial-backports
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: xenial-backports
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
+FilterSrcList: install purge-xenial
+
