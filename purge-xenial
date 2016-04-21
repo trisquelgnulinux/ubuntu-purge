@@ -19,6 +19,7 @@ bibledit*
 bible-kjv
 biblememorizer
 bibletime
+biblesync
 bnetd
 boinc
 bumblebee
@@ -32,6 +33,8 @@ emacs23
 envyng-*
 fglrx-*
 freesci
+fwupdate
+fwupdate-signed
 gdecrypt
 gnome-speech
 grub2-signed
@@ -51,6 +54,7 @@ linux-flo
 linux-fsl-imx51
 linux-goldfish
 linux-grouper
+linux-hammerhead
 linux-linaro*
 linux-lpia*
 linux-maguro
@@ -60,6 +64,7 @@ linux-mvl-dove
 linux-n900
 linux-ports*
 linux-qcm-msm
+linux-raspi2
 linux-restricted*
 linux-rt*
 linux-signed*
