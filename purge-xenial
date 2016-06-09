@@ -68,6 +68,7 @@ linux-raspi2
 linux-restricted*
 linux-rt*
 linux-signed*
+linux-snapdragon
 linux-ti-omap4
 linux-wlan-ng
 mame
@@ -123,6 +124,7 @@ w9wm
 winetricks
 xdrawchem
 xqf
+zfs-linux
 "
 
 # Packages that we have helpers for but we don't want to risk pulling anyway
