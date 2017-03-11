@@ -48,7 +48,7 @@ for PACKAGE in $PACKAGES; do
             echo "$EXTRA purge" >> conf/purge-$DIST
             for REPO in $DIST $DIST-updates $DIST-security $DIST-backports; do
                 echo 1 reprepro -v removesrc $REPO $EXTRA
-                reprepro -v removesrc $REPO $EXTRA
+                reprepro -v removesrc $REPO $EXTRA | echo $? grep -qv 249
             done
         done
     else
@@ -56,7 +56,7 @@ for PACKAGE in $PACKAGES; do
         for REPO in $DIST $DIST-updates $DIST-security $DIST-backports; do
             if grep "^$PACKAGE$" -q list; then
                 echo 2 reprepro -v removesrc $REPO $PACKAGE
-                reprepro -v removesrc $REPO $PACKAGE
+                reprepro -v removesrc $REPO $PACKAGE | echo $? grep -qv 249
             fi
         done
     fi

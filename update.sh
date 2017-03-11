@@ -20,7 +20,7 @@ cd /home/ubuntu
 set -e
 set -x
 
-doall(){
+#doall(){
 
 date
 echo Self updating from git...
@@ -46,7 +46,7 @@ sh purge.sh precise toutatis
 sh purge.sh trusty belenos
 sh purge.sh xenial flidas
 echo DONE
-}
 
-savelog logs/update.log
-doall 2>&1 | tee logs/update.log
+#}
+#savelog logs/update.log
+#doall 2>&1 | tee logs/update.log
