@@ -11,7 +11,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu lucid mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: lucid
+#Update: lucid
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -26,7 +26,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu lucid updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: lucid-updates
+#Update: lucid-updates
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -40,7 +40,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu lucid mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: lucid-security
+#Update: lucid-security
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -54,7 +54,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu lucid updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: lucid-backports
+#Update: lucid-backports
 
 
 Origin: Ubuntu
