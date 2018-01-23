@@ -128,6 +128,7 @@ Suite: trusty
 Components: main>main
 UDebComponents: main>main
 VerifyRelease: 7EBC211F
+FilterSrcList: install purge-trusty
 
 Name: xenial-ubuntu-mozilla-security
 Method: http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu
@@ -135,4 +136,5 @@ Suite: xenial
 Components: main>main
 UDebComponents: main>main
 VerifyRelease: 7EBC211F
+FilterSrcList: install purge-xenial
 
