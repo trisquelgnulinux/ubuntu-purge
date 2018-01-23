@@ -145,7 +145,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu trusty updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: trusty-updates
+Update: trusty-updates trusty-ubuntu-mozilla-security
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -159,7 +159,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu trusty mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: trusty-security
+Update: trusty-security trusty-ubuntu-mozilla-security
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -204,7 +204,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu xenial updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: xenial-updates
+Update: xenial-updates xenial-ubuntu-mozilla-security
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -218,7 +218,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu xenial mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: xenial-security
+Update: xenial-security xenial-ubuntu-mozilla-security
 
 Origin: Ubuntu
 Label: Ubuntu

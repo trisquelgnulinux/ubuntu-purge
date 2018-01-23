@@ -120,3 +120,19 @@ Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterSrcList: install purge-xenial
 
+# FIREFOX ######################################################
+
+Name: trusty-ubuntu-mozilla-security
+Method: http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu
+Suite: trusty
+Components: main>main
+UDebComponents: main>main
+VerifyRelease: 7EBC211F
+
+Name: xenial-ubuntu-mozilla-security
+Method: http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu
+Suite: xenial
+Components: main>main
+UDebComponents: main>main
+VerifyRelease: 7EBC211F
+
