@@ -47,8 +47,10 @@ libubuntuone
 linux-ac100
 linux-armadaxp
 linux-aws
+linux-azure*
 linux-chromebook
 linux-ec2
+linux-euclid
 linux-exynos5
 linux-firmware*
 linux-flo
@@ -63,6 +65,7 @@ linux-lpia*
 linux-maguro
 linux-mako
 linux-manta
+linux-oem
 linux-mvl-dove
 linux-n900
 linux-ports*
