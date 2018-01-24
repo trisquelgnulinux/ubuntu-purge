@@ -54,6 +54,7 @@ linux-flo
 linux-fsl-imx51
 linux-goldfish
 linux-grouper
+linux-keystone
 linux-linaro*
 linux-lpia*
 linux-maguro
