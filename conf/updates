@@ -146,7 +146,7 @@ Method: http://ppa.launchpad.net/certbot/certbot/ubuntu
 Suite: trusty
 Components: main>main
 UDebComponents: main>main
-VerifyRelease: 7BF576066ADA65728FC7E70A8C47BE8E75BCA694
+VerifyRelease: 8C47BE8E75BCA694
 FilterSrcList: install purge-trusty
 
 Name: xenial-certbot
@@ -154,6 +154,6 @@ Method: http://ppa.launchpad.net/certbot/certbot/ubuntu
 Suite: xenial
 Components: main>main
 UDebComponents: main>main
-VerifyRelease: 7BF576066ADA65728FC7E70A8C47BE8E75BCA694
+VerifyRelease: 8C47BE8E75BCA694
 FilterSrcList: install purge-xenial
 
