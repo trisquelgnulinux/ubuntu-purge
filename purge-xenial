@@ -13,6 +13,7 @@ aee
 afio
 app-install-data-commercial
 app-install-data-partner
+amd64-microcode
 b43-fwcutter
 bcm43xx-fwcutter
 bibledit*
@@ -41,6 +42,7 @@ gnome-speech
 grub2-signed
 gstreamer0.10-pitfdll
 helix-player
+intel-microcode
 ivman
 jockey
 kubuntu-firefox-installer
