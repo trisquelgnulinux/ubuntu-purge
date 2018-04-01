@@ -40,7 +40,7 @@ else
 fi
 
 echo Removing non free packages...
-rm list
+rm list -f
 #sh purge.sh lucid taranis
 #sh purge.sh precise toutatis
 sh purge.sh trusty belenos
