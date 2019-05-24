@@ -24,7 +24,7 @@ set -x
 
 date
 echo Self updating from git...
-git --git-dir=/home/ubuntu/.git pull --all
+git --git-dir=/home/ubuntu/.git fetch --all
 echo Updating git package-helpers...
 git --git-dir=/home/ubuntu/package-helpers/.git pull --all
 
@@ -45,6 +45,7 @@ rm list -f
 #sh purge.sh precise toutatis
 sh purge.sh trusty belenos
 sh purge.sh xenial flidas
+sh purge.sh bionic etiona
 echo DONE
 
 #}

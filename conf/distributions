@@ -71,7 +71,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu precise mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: precise
+#Update: precise
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -86,7 +86,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu precise updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: precise-updates
+#Update: precise-updates
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -100,7 +100,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu precise mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: precise-security
+#Update: precise-security
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -114,7 +114,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu precise updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: precise-backports
+#Update: precise-backports
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -233,4 +233,67 @@ Log: ubuntu-clean.log
 Description: Ubuntu xenial updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
 Update: xenial-backports xenial-ubuntu-mozilla-security xenial-certbot
+
+##################################################################################
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: bionic
+Version: 18.04
+Codename: bionic
+Architectures: i386 amd64 source
+Components: main
+#DDebComponents: main
+#DDebIndices: Packages . .gz .bz2
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu bionic mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: bionic
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: bionic-updates
+Version: 18.04
+Codename: bionic-updates
+Architectures: i386 amd64 source
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu bionic updates mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: bionic-updates
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: bionic-security
+Version: 18.04
+Codename: bionic-security
+Architectures: i386 amd64 source
+Components: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu bionic mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: bionic-security
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: bionic-backports
+Version: 18.04
+Codename: bionic-backports
+Architectures: i386 amd64 source
+Components: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu bionic updates mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: bionic-backports
 
