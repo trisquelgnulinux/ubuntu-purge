@@ -295,5 +295,5 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu bionic updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: bionic-backports
+Update: bionic-backports bionic-ubuntu-mozilla-security
 
