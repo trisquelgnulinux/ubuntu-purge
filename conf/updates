@@ -156,7 +156,7 @@ FilterSrcList: install purge-bionic
 # FIREFOX ######################################################
 
 Name: trusty-ubuntu-mozilla-security
-Method: http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu
+Method: http://ppa.launchpad.net/ubuntu-mozilla-security/rust-next/ubuntu
 Suite: trusty
 Components: main>main
 UDebComponents: main>main
@@ -164,7 +164,7 @@ VerifyRelease: 7EBC211F
 FilterSrcList: install purge-trusty
 
 Name: xenial-ubuntu-mozilla-security
-Method: http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu
+Method: http://ppa.launchpad.net/ubuntu-mozilla-security/rust-next/ubuntu
 Suite: xenial
 Components: main>main
 UDebComponents: main>main
@@ -172,7 +172,7 @@ VerifyRelease: 7EBC211F
 FilterSrcList: install purge-xenial
 
 Name: bionic-ubuntu-mozilla-security
-Method: http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu
+Method: http://ppa.launchpad.net/ubuntu-mozilla-security/rust-next/ubuntu
 Suite: bionic
 Components: main>main
 UDebComponents: main>main
