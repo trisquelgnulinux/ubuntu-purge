@@ -15,6 +15,7 @@ gdecrypt
 envyng-core
 envyng-gtk
 envyng-qt
+fonts-ubuntu*
 fpc
 flashplugin-nonfree
 libflashsupport
@@ -52,6 +53,7 @@ seamonkey
 starfighter
 scribus-ng-doc
 tatan
+ttf-ubuntu-font*
 unetbootin
 user-mode-linux
 user-mode-linux-doc
