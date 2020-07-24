@@ -31,6 +31,7 @@ envyng-core
 envyng-gtk
 envyng-qt
 fglrx-*
+fonts-ubuntu*
 freesci
 gdecrypt
 gfxboot-theme-ubuntu
@@ -93,6 +94,7 @@ testdrive
 thunderbird
 thunderbird-couchdb
 thunderbird-locales
+ttf-ubuntu-font*
 ubuntuone-client
 ubuntuone-dev-tools
 ubuntuone-storage-protocol

@@ -16,6 +16,7 @@ envyng-core
 envyng-gtk
 envyng-qt
 fglrx-installer
+fonts-ubuntu*
 freesci
 gfxboot-theme-ubuntu
 gstreamer0.10-pitfdll
@@ -80,6 +81,7 @@ seamonkey
 software-center
 starfighter
 testdrive
+ttf-ubuntu-font*
 unetbootin
 ubuntuone-client
 ubuntu-restricted-extras

@@ -16,6 +16,7 @@ envyng-core
 envyng-gtk
 envyng-qt
 fglrx-installer
+fonts-ubuntu*
 freedoom
 freesci
 gfxboot-theme-ubuntu
@@ -62,6 +63,7 @@ scribus-ng-doc
 seamonkey
 starfighter
 tatan
+ttf-ubuntu-font*
 unetbootin
 user-mode-linux
 user-mode-linux-doc
