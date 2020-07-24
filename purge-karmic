@@ -14,7 +14,7 @@ envyng-core
 envyng-gtk
 envyng-qt
 fglrx-installer
-fonts-ubuntu*
+fonts-ubuntu-title
 freesci
 gfxboot-theme-ubuntu
 gstreamer0.10-pitfdll
@@ -64,7 +64,7 @@ software-center
 seamonkey
 starfighter
 tatan
-ttf-ubuntu-font*
+ubuntu-font-family-sources
 unetbootin
 ubuntuone-client
 ubuntuone-storage-protocol

@@ -34,7 +34,7 @@ emacs23
 envyng-*
 fglrx-*
 flashplugin-nonfree
-fonts-ubuntu*
+fonts-ubuntu-title
 freesci
 fwupdate
 fwupdate-signed
@@ -121,9 +121,9 @@ snapd-xdg-open
 sweethome3d-furniture-nonfree
 tatan
 testdrive
-ttf-ubuntu-font*
 ubuntu-advantage-tools
 ubuntu-drivers-common
+ubuntu-font-family-sources
 ubuntu-online-tour
 ubuntuone-client
 ubuntuone-dev-tools

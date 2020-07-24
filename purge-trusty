@@ -33,7 +33,7 @@ emacs23
 envyng-*
 fglrx-*
 flashplugin-nonfree
-fonts-ubuntu*
+fonts-ubuntu-title
 freesci
 gdecrypt
 gnome-speech
@@ -110,7 +110,7 @@ software-center
 sweethome3d-furniture-nonfree
 tatan
 testdrive
-ttf-ubuntu-font*
+ubuntu-font-family-sources
 ubuntu-drivers-common
 ubuntu-online-tour
 ubuntuone-client
