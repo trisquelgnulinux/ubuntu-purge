@@ -16,7 +16,7 @@ envyng-core
 envyng-gtk
 envyng-qt
 fglrx-installer
-fonts-ubuntu*
+fonts-ubuntu-title
 freesci
 gfxboot-theme-ubuntu
 gstreamer0.10-pitfdll
@@ -75,7 +75,7 @@ software-center
 starfighter
 tatan
 testdrive
-ttf-ubuntu-font*
+ubuntu-font-family-sources
 unetbootin
 ubuntuone-client
 ubuntu-restricted-extras

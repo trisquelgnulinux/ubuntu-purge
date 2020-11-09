@@ -22,7 +22,7 @@ envyng-core
 envyng-gtk
 envyng-qt
 fglrx*
-fonts-ubuntu*
+fonts-ubuntu-title
 freesci
 gfxboot-theme-ubuntu
 gstreamer0.10-pitfdll
@@ -71,7 +71,7 @@ testdrive
 thunderbird
 thunderbird-couchdb
 thunderbird-locales
-ttf-ubuntu-font*
+ubuntu-font-family-sources
 unetbootin
 ubuntuone-client
 libubuntuone
