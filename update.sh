@@ -43,7 +43,7 @@ echo Removing non free packages...
 rm list -f
 #sh purge.sh lucid taranis
 #sh purge.sh precise toutatis
-sh purge.sh trusty belenos
+#sh purge.sh trusty belenos
 sh purge.sh xenial flidas
 sh purge.sh bionic etiona
 echo DONE
