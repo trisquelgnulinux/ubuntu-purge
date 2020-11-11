@@ -54,6 +54,7 @@ linux-armadaxp*
 linux-aws*
 linux-azure*
 linux-chromebook*
+linux-dell*
 linux-ec2*
 linux-euclid*
 linux-exynos5*
