@@ -60,6 +60,38 @@ VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
 FilterSrcList: install purge-bionic
 
 
+############################################################
+
+Name: focal
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: focal
+Components: main>main universe>main
+UDebComponents: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+FilterSrcList: install purge-focal
+
+Name: focal-updates
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: focal-updates
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+FilterSrcList: install purge-focal
+
+Name: focal-security
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: focal-security
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+FilterSrcList: install purge-focal
+
+Name: focal-backports
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: focal-backports
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+FilterSrcList: install purge-focal
+
+
 # FIREFOX ######################################################
 
 
@@ -94,6 +126,15 @@ Components: main>main
 UDebComponents: main>main
 VerifyRelease: AF4F7421
 FilterSrcList: install purge-bionic
+
+Name: focal-apt-llvm-org
+Method: https://apt.llvm.org/focal/
+Suite: llvm-toolchain-focal-11
+Components: main>main
+UDebComponents: main>main
+VerifyRelease: AF4F7421
+FilterSrcList: install purge-focal
+
 
 # CERTBOT ######################################################
 

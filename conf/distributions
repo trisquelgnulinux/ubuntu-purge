@@ -56,7 +56,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu xenial updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: xenial-backports xenial-ubuntu-mozilla-security xenial-certbot xenial-apt-llvm-org
+Update: xenial-backports xenial-ubuntu-mozilla-security xenial-certbot #xenial-apt-llvm-org
 
 ##################################################################################
 
@@ -117,4 +117,65 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu bionic updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: bionic-backports bionic-ubuntu-mozilla-security bionic-apt-llvm-org
+Update: bionic-backports bionic-ubuntu-mozilla-security #bionic-apt-llvm-org
+
+##################################################################################
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: focal
+Version: 20.04
+Codename: focal
+Architectures: i386 amd64 source
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu focal mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: focal
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: focal-updates
+Version: 20.04
+Codename: focal-updates
+Architectures: i386 amd64 source
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu focal updates mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: focal-updates
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: focal-security
+Version: 20.04
+Codename: focal-security
+Architectures: i386 amd64 source
+Components: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu focal mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: focal-security
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: focal-backports
+Version: 20.04
+Codename: focal-backports
+Architectures: i386 amd64 source
+Components: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu focal updates mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: focal-backports #focal-apt-llvm-org

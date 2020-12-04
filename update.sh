@@ -46,6 +46,7 @@ rm list -f
 #sh purge.sh trusty belenos
 sh purge.sh xenial flidas
 sh purge.sh bionic etiona
+sh purge.sh focal nabia
 echo DONE
 
 #}
