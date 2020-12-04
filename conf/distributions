@@ -1,179 +1,182 @@
-Label: Ubuntu
-Suite: lucid
-Version: 10.04
-Codename: lucid
-Architectures: i386 amd64 source
-Components: main
-UDebComponents: main
-DebIndices: Packages Release . .gz .bz2
-UDebIndices: Packages . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu lucid mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-#Update: lucid
+#Label: Ubuntu
+#Suite: lucid
+#Version: 10.04
+#Codename: lucid
+#Architectures: i386 amd64 source
+#Components: main
+#UDebComponents: main
+#DebIndices: Packages Release . .gz .bz2
+#UDebIndices: Packages . .gz .bz2
+#DscIndices: Sources Release .gz .bz2
+#Log: ubuntu-clean.log
+#Description: Ubuntu lucid mirror (main and universe)
+#SignWith: B4EFB9F38D8AEBF1
+##Update: lucid
+#
+#Origin: Ubuntu
+#Label: Ubuntu
+#Suite: lucid-updates
+#Version: 10.04
+#Codename: lucid-updates
+#Architectures: i386 amd64 source
+#Components: main
+#UDebComponents: main
+#DebIndices: Packages Release . .gz .bz2
+#DscIndices: Sources Release .gz .bz2
+#Log: ubuntu-clean.log
+#Description: Ubuntu lucid updates mirror (main and universe)
+#SignWith: B4EFB9F38D8AEBF1
+##Update: lucid-updates
+#
+#Origin: Ubuntu
+#Label: Ubuntu
+#Suite: lucid-security
+#Version: 10.04
+#Codename: lucid-security
+#Architectures: i386 amd64 source
+#Components: main
+#DebIndices: Packages Release . .gz .bz2
+#DscIndices: Sources Release .gz .bz2
+#Log: ubuntu-clean.log
+#Description: Ubuntu lucid mirror (main and universe)
+#SignWith: B4EFB9F38D8AEBF1
+##Update: lucid-security
+#
+#Origin: Ubuntu
+#Label: Ubuntu
+#Suite: lucid-backports
+#Version: 10.04
+#Codename: lucid-backports
+#Architectures: i386 amd64 source
+#Components: main 
+#DebIndices: Packages Release . .gz .bz2
+#DscIndices: Sources Release .gz .bz2
+#Log: ubuntu-clean.log
+#Description: Ubuntu lucid updates mirror (main and universe)
+#SignWith: B4EFB9F38D8AEBF1
+##Update: lucid-backports
+#
+#
+#Origin: Ubuntu
+#Label: Ubuntu
+#Suite: precise
+#Version: 12.04
+#Codename: precise
+#Architectures: i386 amd64 source
+#Components: main
+#UDebComponents: main
+#DebIndices: Packages Release . .gz .bz2
+#UDebIndices: Packages . .gz .bz2
+#DscIndices: Sources Release .gz .bz2
+#Log: ubuntu-clean.log
+#Description: Ubuntu precise mirror (main and universe)
+#SignWith: B4EFB9F38D8AEBF1
+##Update: precise
+#
+#Origin: Ubuntu
+#Label: Ubuntu
+#Suite: precise-updates
+#Version: 12.04
+#Codename: precise-updates
+#Architectures: i386 amd64 source
+#Components: main
+#UDebComponents: main
+#DebIndices: Packages Release . .gz .bz2
+#DscIndices: Sources Release .gz .bz2
+#Log: ubuntu-clean.log
+#Description: Ubuntu precise updates mirror (main and universe)
+#SignWith: B4EFB9F38D8AEBF1
+##Update: precise-updates
+#
+#Origin: Ubuntu
+#Label: Ubuntu
+#Suite: precise-security
+#Version: 12.04
+#Codename: precise-security
+#Architectures: i386 amd64 source
+#Components: main
+#DebIndices: Packages Release . .gz .bz2
+#DscIndices: Sources Release .gz .bz2
+#Log: ubuntu-clean.log
+#Description: Ubuntu precise mirror (main and universe)
+#SignWith: B4EFB9F38D8AEBF1
+##Update: precise-security
+#
+#Origin: Ubuntu
+#Label: Ubuntu
+#Suite: precise-backports
+#Version: 12.04
+#Codename: precise-backports
+#Architectures: i386 amd64 source
+#Components: main
+#DebIndices: Packages Release . .gz .bz2
+#DscIndices: Sources Release .gz .bz2
+#Log: ubuntu-clean.log
+#Description: Ubuntu precise updates mirror (main and universe)
+#SignWith: B4EFB9F38D8AEBF1
+##Update: precise-backports
+#
+#
+#Origin: Ubuntu
+#Label: Ubuntu
+#Suite: trusty
+#Version: 14.04
+#Codename: trusty
+#Architectures: i386 amd64 source
+#Components: main
+#UDebComponents: main
+#DebIndices: Packages Release . .gz .bz2
+#UDebIndices: Packages . .gz .bz2
+#DscIndices: Sources Release .gz .bz2
+#Log: ubuntu-clean.log
+#Description: Ubuntu trusty mirror (main and universe)
+#SignWith: B4EFB9F38D8AEBF1
+#Update: trusty
+#
+#Origin: Ubuntu
+#Label: Ubuntu
+#Suite: trusty-updates
+#Version: 14.04
+#Codename: trusty-updates
+#Architectures: i386 amd64 source
+#Components: main
+#UDebComponents: main
+#DebIndices: Packages Release . .gz .bz2
+#DscIndices: Sources Release .gz .bz2
+#Log: ubuntu-clean.log
+#Description: Ubuntu trusty updates mirror (main and universe)
+#SignWith: B4EFB9F38D8AEBF1
+#Update: trusty-updates trusty-ubuntu-mozilla-security trusty-certbot
+#
+#Origin: Ubuntu
+#Label: Ubuntu
+#Suite: trusty-security
+#Version: 14.04
+#Codename: trusty-security
+#Architectures: i386 amd64 source
+#Components: main
+#DebIndices: Packages Release . .gz .bz2
+#DscIndices: Sources Release .gz .bz2
+#Log: ubuntu-clean.log
+#Description: Ubuntu trusty mirror (main and universe)
+#SignWith: B4EFB9F38D8AEBF1
+#Update: trusty-security
+#
+#Origin: Ubuntu
+#Label: Ubuntu
+#Suite: trusty-backports
+#Version: 14.04
+#Codename: trusty-backports
+#Architectures: i386 amd64 source
+#Components: main
+#DebIndices: Packages Release . .gz .bz2
+#DscIndices: Sources Release .gz .bz2
+#Log: ubuntu-clean.log
+#Description: Ubuntu trusty updates mirror (main and universe)
+#SignWith: B4EFB9F38D8AEBF1
+#Update: trusty-backports trusty-ubuntu-mozilla-security trusty-certbot
+#
 
-Origin: Ubuntu
-Label: Ubuntu
-Suite: lucid-updates
-Version: 10.04
-Codename: lucid-updates
-Architectures: i386 amd64 source
-Components: main
-UDebComponents: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu lucid updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-#Update: lucid-updates
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: lucid-security
-Version: 10.04
-Codename: lucid-security
-Architectures: i386 amd64 source
-Components: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu lucid mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-#Update: lucid-security
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: lucid-backports
-Version: 10.04
-Codename: lucid-backports
-Architectures: i386 amd64 source
-Components: main 
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu lucid updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-#Update: lucid-backports
-
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: precise
-Version: 12.04
-Codename: precise
-Architectures: i386 amd64 source
-Components: main
-UDebComponents: main
-DebIndices: Packages Release . .gz .bz2
-UDebIndices: Packages . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu precise mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-#Update: precise
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: precise-updates
-Version: 12.04
-Codename: precise-updates
-Architectures: i386 amd64 source
-Components: main
-UDebComponents: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu precise updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-#Update: precise-updates
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: precise-security
-Version: 12.04
-Codename: precise-security
-Architectures: i386 amd64 source
-Components: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu precise mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-#Update: precise-security
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: precise-backports
-Version: 12.04
-Codename: precise-backports
-Architectures: i386 amd64 source
-Components: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu precise updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-#Update: precise-backports
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: trusty
-Version: 14.04
-Codename: trusty
-Architectures: i386 amd64 source
-Components: main
-UDebComponents: main
-DebIndices: Packages Release . .gz .bz2
-UDebIndices: Packages . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu trusty mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: trusty
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: trusty-updates
-Version: 14.04
-Codename: trusty-updates
-Architectures: i386 amd64 source
-Components: main
-UDebComponents: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu trusty updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: trusty-updates trusty-ubuntu-mozilla-security trusty-certbot
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: trusty-security
-Version: 14.04
-Codename: trusty-security
-Architectures: i386 amd64 source
-Components: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu trusty mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: trusty-security
-
-Origin: Ubuntu
-Label: Ubuntu
-Suite: trusty-backports
-Version: 14.04
-Codename: trusty-backports
-Architectures: i386 amd64 source
-Components: main
-DebIndices: Packages Release . .gz .bz2
-DscIndices: Sources Release .gz .bz2
-Log: ubuntu-clean.log
-Description: Ubuntu trusty updates mirror (main and universe)
-SignWith: B4EFB9F38D8AEBF1
-Update: trusty-backports trusty-ubuntu-mozilla-security trusty-certbot
 
 Origin: Ubuntu
 Label: Ubuntu
@@ -232,7 +235,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu xenial updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: xenial-backports xenial-ubuntu-mozilla-security xenial-certbot
+Update: xenial-backports xenial-ubuntu-mozilla-security xenial-certbot xenial-apt-llvm-org
 
 ##################################################################################
 
@@ -295,5 +298,4 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu bionic updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: bionic-backports bionic-ubuntu-mozilla-security
-
+Update: bionic-backports bionic-ubuntu-mozilla-security bionic-apt-llvm-org

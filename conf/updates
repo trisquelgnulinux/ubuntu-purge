@@ -179,6 +179,22 @@ UDebComponents: main>main
 VerifyRelease: 7EBC211F
 FilterSrcList: install purge-bionic
 
+Name: xenial-apt-llvm-org
+Method: https://apt.llvm.org/xenial/
+Suite: llvm-toolchain-xenial-11
+Components: main>main
+UDebComponents: main>main
+VerifyRelease: AF4F7421
+FilterSrcList: install purge-xenial
+
+Name: bionic-apt-llvm-org
+Method: https://apt.llvm.org/bionic/
+Suite: llvm-toolchain-bionic-11
+Components: main>main
+UDebComponents: main>main
+VerifyRelease: AF4F7421
+FilterSrcList: install purge-bionic
+
 # CERTBOT ######################################################
 
 Name: trusty-certbot
@@ -196,4 +212,3 @@ Components: main>main
 UDebComponents: main>main
 VerifyRelease: 8C47BE8E75BCA694
 FilterSrcList: install purge-xenial
-
