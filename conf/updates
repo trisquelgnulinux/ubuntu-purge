@@ -1,98 +1,4 @@
 
-
-Name: lucid
-Method: http://archive.ubuntu.com/ubuntu/
-Suite: lucid
-Components: main>main universe>main
-UDebComponents: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterSrcList: install purge-lucid
-
-Name: lucid-updates
-Method: http://archive.ubuntu.com/ubuntu/
-Suite: lucid-updates
-Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterSrcList: install purge-lucid
-
-Name: lucid-security
-Method: http://archive.ubuntu.com/ubuntu/
-Suite: lucid-security
-Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterSrcList: install purge-lucid
-
-Name: lucid-backports
-Method: http://archive.ubuntu.com/ubuntu/
-Suite: lucid-backports
-Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterSrcList: install purge-lucid
-
-
-
-
-Name: precise
-Method: http://archive.ubuntu.com/ubuntu/
-Suite: precise
-Components: main>main universe>main
-UDebComponents: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterSrcList: install purge-precise
-
-Name: precise-updates
-Method: http://archive.ubuntu.com/ubuntu/
-Suite: precise-updates
-Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterSrcList: install purge-precise
-
-Name: precise-security
-Method: http://archive.ubuntu.com/ubuntu/
-Suite: precise-security
-Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterSrcList: install purge-precise
-
-Name: precise-backports
-Method: http://archive.ubuntu.com/ubuntu/
-Suite: precise-backports
-Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterSrcList: install purge-precise
-
-
-Name: trusty
-Method: http://archive.ubuntu.com/ubuntu/
-Suite: trusty
-Components: main>main universe>main
-UDebComponents: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterSrcList: install purge-trusty
-
-Name: trusty-updates
-Method: http://archive.ubuntu.com/ubuntu/
-Suite: trusty-updates
-Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterSrcList: install purge-trusty
-
-Name: trusty-security
-Method: http://archive.ubuntu.com/ubuntu/
-Suite: trusty-security
-Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterSrcList: install purge-trusty
-
-Name: trusty-backports
-Method: http://archive.ubuntu.com/ubuntu/
-Suite: trusty-backports
-Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterSrcList: install purge-trusty
-
-
-
 Name: xenial
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: xenial
@@ -122,6 +28,7 @@ Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
 FilterSrcList: install purge-xenial
 
+############################################################
 
 Name: bionic
 Method: http://archive.ubuntu.com/ubuntu/
@@ -155,13 +62,6 @@ FilterSrcList: install purge-bionic
 
 # FIREFOX ######################################################
 
-Name: trusty-ubuntu-mozilla-security
-Method: http://ppa.launchpad.net/ubuntu-mozilla-security/rust-next/ubuntu
-Suite: trusty
-Components: main>main
-UDebComponents: main>main
-VerifyRelease: 7EBC211F
-FilterSrcList: install purge-trusty
 
 Name: xenial-ubuntu-mozilla-security
 Method: http://ppa.launchpad.net/ubuntu-mozilla-security/rust-next/ubuntu
@@ -197,13 +97,6 @@ FilterSrcList: install purge-bionic
 
 # CERTBOT ######################################################
 
-Name: trusty-certbot
-Method: http://ppa.launchpad.net/certbot/certbot/ubuntu
-Suite: trusty
-Components: main>main
-UDebComponents: main>main
-VerifyRelease: 8C47BE8E75BCA694
-FilterSrcList: install purge-trusty
 
 Name: xenial-certbot
 Method: http://ppa.launchpad.net/certbot/certbot/ubuntu
