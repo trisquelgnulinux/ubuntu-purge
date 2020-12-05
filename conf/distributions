@@ -56,7 +56,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu xenial updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: xenial-backports xenial-ubuntu-mozilla-security xenial-certbot #xenial-apt-llvm-org
+Update: xenial-backports xenial-apt-llvm-org
 
 ##################################################################################
 
@@ -117,7 +117,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu bionic updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: bionic-backports bionic-ubuntu-mozilla-security #bionic-apt-llvm-org
+Update: bionic-backports bionic-apt-llvm-org
 
 ##################################################################################
 
