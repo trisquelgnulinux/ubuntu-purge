@@ -53,6 +53,7 @@ linux-ac100*
 linux-armadaxp*
 linux-aws*
 linux-azure*
+linux-bluefield*
 linux-chromebook*
 linux-dell*
 linux-ec2*
@@ -80,6 +81,7 @@ linux-n900*
 linux-ports*
 linux-qcm-msm*
 linux-raspi*
+linux-riscv*
 linux-restricted*
 linux-rt*
 linux-signed*

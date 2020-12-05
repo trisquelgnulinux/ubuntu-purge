@@ -53,6 +53,7 @@ linux-ac100*
 linux-armadaxp*
 linux-aws*
 linux-azure*
+linux-bluefield*
 linux-chromebook*
 linux-dell*
 linux-ec2*
