@@ -126,7 +126,7 @@ Label: Ubuntu
 Suite: focal
 Version: 20.04
 Codename: focal
-Architectures: i386 amd64 source
+Architectures: amd64 source
 Components: main
 UDebComponents: main
 DebIndices: Packages Release . .gz .bz2
@@ -142,7 +142,7 @@ Label: Ubuntu
 Suite: focal-updates
 Version: 20.04
 Codename: focal-updates
-Architectures: i386 amd64 source
+Architectures: amd64 source
 Components: main
 UDebComponents: main
 DebIndices: Packages Release . .gz .bz2
@@ -157,7 +157,7 @@ Label: Ubuntu
 Suite: focal-security
 Version: 20.04
 Codename: focal-security
-Architectures: i386 amd64 source
+Architectures: amd64 source
 Components: main
 DebIndices: Packages Release . .gz .bz2
 DscIndices: Sources Release .gz .bz2
@@ -171,7 +171,7 @@ Label: Ubuntu
 Suite: focal-backports
 Version: 20.04
 Codename: focal-backports
-Architectures: i386 amd64 source
+Architectures: amd64 source
 Components: main
 DebIndices: Packages Release . .gz .bz2
 DscIndices: Sources Release .gz .bz2
