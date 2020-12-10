@@ -29,6 +29,7 @@ echo Updating git package-helpers...
 git --git-dir=/home/ubuntu/package-helpers/.git fetch --all
 
 echo Updating ubuntu mirrors...
+reprepro  -v -b . predelete
 reprepro  -v -b . update
 if reprepro  -v -b . update
 then

@@ -1,4 +1,3 @@
-
 Origin: Ubuntu
 Label: Ubuntu
 Suite: xenial
@@ -24,6 +23,7 @@ Architectures: i386 amd64 source
 Components: main
 UDebComponents: main
 DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
 DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu xenial updates mirror (main and universe)
@@ -37,7 +37,9 @@ Version: 16.04
 Codename: xenial-security
 Architectures: i386 amd64 source
 Components: main
+UDebComponents: main
 DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
 DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu xenial mirror (main and universe)
@@ -85,6 +87,7 @@ Architectures: i386 amd64 source
 Components: main
 UDebComponents: main
 DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
 DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu bionic updates mirror (main and universe)
@@ -98,7 +101,9 @@ Version: 18.04
 Codename: bionic-security
 Architectures: i386 amd64 source
 Components: main
+UDebComponents: main
 DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
 DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu bionic mirror (main and universe)
@@ -113,6 +118,7 @@ Codename: bionic-backports
 Architectures: i386 amd64 source
 Components: main
 DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
 DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu bionic updates mirror (main and universe)
@@ -146,6 +152,7 @@ Architectures: amd64 source
 Components: main
 UDebComponents: main
 DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
 DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu focal updates mirror (main and universe)
@@ -159,7 +166,9 @@ Version: 20.04
 Codename: focal-security
 Architectures: amd64 source
 Components: main
+UDebComponents: main
 DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
 DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu focal mirror (main and universe)
@@ -178,4 +187,5 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu focal updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: focal-backports #focal-apt-llvm-org
+Update: focal-backports focal-apt-llvm-org
+
