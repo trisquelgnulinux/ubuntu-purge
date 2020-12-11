@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-#    Copyright (C) 2008,2009,2010,2011  Ruben Rodriguez <ruben@gnu.org>
+#    Copyright (C) 2008-2020  Ruben Rodriguez <ruben@gnu.org>
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -18,38 +18,29 @@
 
 cd /home/ubuntu
 set -e
-set -x
 
-#doall(){
+echo Started on $(date)
 
-date
 echo Self updating from git...
 git --git-dir=/home/ubuntu/.git fetch --all
 echo Updating git package-helpers...
 git --git-dir=/home/ubuntu/package-helpers/.git fetch --all
 
-echo Updating ubuntu mirrors...
-reprepro  -v -b . predelete
-reprepro  -v -b . update
-if reprepro  -v -b . update
-then
-    [ -f ERROR ] && rm ERROR
-else
+repexit(){
     echo WARNING: reprepro ended unexpectedly
     echo Do NOT update any leaf repositories from here until it is fixed
     date > ERROR
-fi
+    exit 1
+}
+
+echo Updating ubuntu mirrors...
+reprepro  -v -b . predelete || repexit
+reprepro  -v -b . update || repexit
 
 echo Removing non free packages...
 rm list -f
-#sh purge.sh lucid taranis
-#sh purge.sh precise toutatis
-#sh purge.sh trusty belenos
 sh purge.sh xenial flidas
 sh purge.sh bionic etiona
 sh purge.sh focal nabia
 echo DONE
 
-#}
-#savelog logs/update.log
-#doall 2>&1 | tee logs/update.log
