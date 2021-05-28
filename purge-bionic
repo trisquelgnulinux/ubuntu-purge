@@ -194,7 +194,7 @@ xubuntu-artwork
 xubuntu-meta
 lubuntu-artwork
 lubuntu-meta
-lubuntu-default-settings 
+lubuntu-default-settings
 ubiquity-slideshow-ubuntu
 ubuntu-sugar-remix-meta
 ubuntustudio-audio
@@ -213,6 +213,8 @@ ubuntustudio-controls
 ubuntustudio-look
 ubuntustudio-theme
 ubuntustudio-wallpapers
+ubuntustudio-installer
+ubuntustudio-live
 plymouth-theme-ubuntustudio
 ubuntustudio-screensaver
 ubuntustudio-sounds
