@@ -32,8 +32,8 @@ easycrypt
 efilinux-signed
 emacs23
 emdebian-archive-keyring
-envyng-*
-fglrx-*
+envyng*
+fglrx*
 flashplugin-nonfree
 fonts-ubuntu*
 freesci
