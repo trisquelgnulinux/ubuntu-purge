@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-#    Copyright (C) 2008,2009,2010  Rubén Rodríguez <ruben@gnu.org>
+#    Copyright (C) 2008-2021  Ruben Rodriguez <ruben@trisquel.org>
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -20,6 +20,9 @@ set -e
 
 DIST=$1
 CODENAME=$2
+
+echo Updating git package-helpers...
+git --git-dir=/home/ubuntu/package-helpers/.git fetch --all
 REPLACE=$(git --git-dir=/home/ubuntu/package-helpers/.git ls-tree -r --name-only origin/$CODENAME|grep helpers/make-|sed 's/.*make-//')
 
 if [ -x purge-$DIST ] 
@@ -29,74 +32,67 @@ else
     exit 1
 fi
 
-echo listing $DIST
-reprepro -A source list $DIST | cut -d' ' -f2 > list1
-reprepro -A source list $DIST-updates | cut -d' ' -f2 >> list1
-reprepro -A source list $DIST-security | cut -d' ' -f2 >> list1
-reprepro -A source list $DIST-backports | cut -d' ' -f2 >> list1
-sort -u < list1 > list
+echo Listing packages currently in local $DIST repository
+reprepro -A source list $DIST | cut -d' ' -f2 > list-$DIST
+reprepro -A source list $DIST-updates | cut -d' ' -f2 > list-$DIST-updates
+reprepro -A source list $DIST-security | cut -d' ' -f2 > list-$DIST-security
+reprepro -A source list $DIST-backports | cut -d' ' -f2 > list-$DIST-backports
 
-PACKAGES="$REPLACE $REMOVE $UNBRAND $FAILSAFE"
+# blocklist packages
+echo Blocklisting packages defined in purge-$DIST
 
-echo Searching for packages to remove in $DIST
-for PACKAGE in $PACKAGES; do
+for PACKAGE in $REMOVE $UNBRAND $FAILSAFE; do
 
     if echo $PACKAGE |grep -q '\*'; then
+
         PACKAGE=$(echo $PACKAGE |sed 's/-*//; s/*//')
-        EXTRAPACKAGES=$(grep "^$PACKAGE" list || true)
+        EXTRAPACKAGES=$(grep "^$PACKAGE" list-$DIST* | sed 's/.*://' ||true)
+
         for EXTRA in $EXTRAPACKAGES; do
             echo "$EXTRA purge" >> conf/purge-$DIST
-            for REPO in $DIST $DIST-updates $DIST-security $DIST-backports; do
-                echo 1 reprepro -v removesrc $REPO $EXTRA
-                reprepro -v removesrc $REPO $EXTRA | echo $? grep -qv 249
-            done
         done
     else
         echo "$PACKAGE purge" >> conf/purge-$DIST
-        for REPO in $DIST $DIST-updates $DIST-security $DIST-backports; do
-            if grep "^$PACKAGE$" -q list; then
-                echo 2 reprepro -v removesrc $REPO $PACKAGE
-                reprepro -v removesrc $REPO $PACKAGE | echo $? grep -qv 249
-            fi
-        done
     fi
 done
 
-for file in conf/purge*; do
+# helper packages
+echo Blacklisting packages defined by $CODENAME helpers
+rm conf/replace-$DIST* -f
+
+for PACKAGE in $REPLACE; do
+    BACKPORT=false
+    git --git-dir=/home/ubuntu/package-helpers/.git \
+	show origin/$CODENAME:helpers/make-$PACKAGE |grep -q '^BACKPORTS*=true' \
+	&& BACKPORT=true
+
+    if $BACKPORT; then
+        echo "$PACKAGE purge" >> conf/replace-$DIST-backports
+    else
+        echo "$PACKAGE purge" >> conf/replace-$DIST
+    fi
+done
+
+for file in conf/purge-$DIST* conf/replace-$DIST*; do
     cat $file | sort -u > $file.tmp
     mv $file.tmp $file
 done
 
-exit
-
-#--------------------------------------------------------------
-
-echo Searching for missing packages in $DIST
-rm -f /tmp/sourcemissing
-for REPO in $DIST $DIST-updates $DIST-security $DIST-backports; do
-  reprepro sourcemissing $REPO >> /tmp/sourcemissing
+echo Removing blocklisted packages found in local repository
+for REPO in $DIST $DIST-updates $DIST-security; do
+    for PACKAGE in $(cat conf/purge-$DIST conf/replace-$DIST | sed 's/ .*//'); do
+        if grep "^$PACKAGE$" -q list-$REPO; then
+            echo reprepro -v removesrc $REPO $PACKAGE
+            reprepro -v removesrc $REPO $PACKAGE | echo $? | grep -qv 249
+        fi
+    done
 done
 
-while read line; do
+for PACKAGE in $(cat conf/replace-$DIST-backports | sed 's/ .*//'); do
+    if grep "^$PACKAGE$" -q list-$DIST-backports; then
+        echo reprepro -v removesrc $DIST-backports $PACKAGE
+        reprepro -v removesrc $DIST-backports $PACKAGE | echo $? | grep -qv 249
+    fi
+done
 
-dist=$(echo $line | cut -d" " -f1 )
-sourcepkg=$(echo $line | cut -d" " -f2 )
-package=$(echo $line | cut -d" " -f4|sed 's_.*/__; s/_.*//' )
-
-dir=$(echo $line | cut -d" " -f4 | sed 's/\(.*\)\/.*/\1/' )
-
-if ! ls $dir|grep dsc -q; then
-
-echo "$sourcepkg purge" conf/purge-$dist
-echo "$sourcepkg purge" >> conf/purge-$dist
-
-fi
-
-#echo reprepro -v remove $dist $package
-#reprepro -v remove $dist $package
-
-done < /tmp/sourcemissing
-#--------------------------------------------------------------
-
-
-
+echo Finished

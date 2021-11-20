@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-#    Copyright (C) 2008-2020  Ruben Rodriguez <ruben@gnu.org>
+#    Copyright (C) 2008-2021  Ruben Rodriguez <ruben@gnu.org>
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -22,27 +22,26 @@ set -e
 echo Started on $(date)
 
 echo Self updating from git...
-git --git-dir=/home/ubuntu/.git fetch --all
-echo Updating git package-helpers...
-git --git-dir=/home/ubuntu/package-helpers/.git fetch --all
+git --git-dir=/home/ubuntu/.git pull
 
 repexit(){
     echo WARNING: reprepro ended unexpectedly
     echo Do NOT update any leaf repositories from here until it is fixed
-    date > ERROR
+    echo "Error during update at $(date)" > ERROR
     exit 1
 }
 
+echo "Locking during repo update at $(date)" > ERROR
+
 echo Updating ubuntu mirrors...
-reprepro  -v -b . predelete || repexit
-reprepro  -v -b . update || repexit
+reprepro --noskipold -v -b . predelete || repexit
+reprepro --noskipold -v -b . update || repexit
 
 echo Removing non free packages...
-rm list -f
 sh purge.sh xenial flidas
 sh purge.sh bionic etiona
 sh purge.sh focal nabia
 
 rm ERROR -f
-echo DONE
+echo DONE at $(date)
 
