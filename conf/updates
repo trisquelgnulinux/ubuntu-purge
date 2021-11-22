@@ -65,31 +65,71 @@ FilterSrcList: install purge-bionic
 Name: focal
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: focal
+Architectures: source i386 amd64
 Components: main>main universe>main
 UDebComponents: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
-FilterSrcList: install purge-focal
+FilterSrcList: install purge-focal replace-focal
 
 Name: focal-updates
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: focal-updates
+Architectures: source i386 amd64
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
-FilterSrcList: install purge-focal
+FilterSrcList: install purge-focal replace-focal
 
 Name: focal-security
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: focal-security
+Architectures: source i386 amd64
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
-FilterSrcList: install purge-focal
+FilterSrcList: install purge-focal replace-focal
 
 Name: focal-backports
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: focal-backports
+Architectures: source i386 amd64
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
-FilterSrcList: install purge-focal
+FilterSrcList: install purge-focal replace-focal-backports
+
+### PORTS
+
+Name: focal-ports
+Method: http://ports.ubuntu.com/
+Suite: focal
+Architectures: armhf
+Components: main>main universe>main
+UDebComponents: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+FilterSrcList: install purge-focal replace-focal
+
+Name: focal-updates-ports
+Method: http://ports.ubuntu.com/
+Suite: focal-updates
+Architectures: armhf
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+FilterSrcList: install purge-focal replace-focal
+
+Name: focal-security-ports
+Method: http://ports.ubuntu.com/
+Suite: focal-security
+Architectures: armhf
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+FilterSrcList: install purge-focal replace-focal
+
+Name: focal-backports-ports
+Method: http://ports.ubuntu.com/
+Suite: focal-backports
+Architectures: armhf
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+FilterSrcList: install purge-focal replace-focal-backports
+
 
 
 # FIREFOX ######################################################
@@ -130,6 +170,7 @@ FilterSrcList: install purge-bionic
 Name: focal-apt-llvm-org
 Method: https://apt.llvm.org/focal/
 Suite: llvm-toolchain-focal-11
+Architectures: source i386 amd64
 Components: main>main
 UDebComponents: main>main
 VerifyRelease: AF4F7421
