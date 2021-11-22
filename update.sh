@@ -19,6 +19,11 @@
 cd /home/ubuntu
 set -e
 
+if [ -e LOCK ]; then
+    echo "Lock file found, aborting run."
+    exit 1
+fi
+
 echo Started on $(date)
 
 echo Self updating from git...
@@ -28,10 +33,11 @@ repexit(){
     echo WARNING: reprepro ended unexpectedly
     echo Do NOT update any leaf repositories from here until it is fixed
     echo "Error during update at $(date)" > ERROR
+    rm -f LOCK
     exit 1
 }
 
-echo "Locking during repo update at $(date)" > ERROR
+echo "Locking for repo update at $(date)" > LOCK
 
 echo Updating ubuntu mirrors...
 reprepro --noskipold -v -b . predelete || repexit
@@ -42,6 +48,6 @@ sh purge.sh xenial flidas
 sh purge.sh bionic etiona
 sh purge.sh focal nabia
 
-rm ERROR -f
+rm ERROR LOCK -f
 echo DONE at $(date)
 
