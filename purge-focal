@@ -106,6 +106,7 @@ nvidia-prime
 nvidia-profiler
 nvidia-settings*
 nvidia-xconfig
+oem*
 ophcrack
 origami
 pvpgn
