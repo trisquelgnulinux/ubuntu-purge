@@ -1,6 +1,8 @@
 logs
 pool
 lists
+list-*
+package-helpers
 files
 dists
 db
@@ -9,6 +11,7 @@ update.log
 update.log.bak
 ERROR
 conf/purge-*
+conf/replace-*
 incoming/*
 incoming
 checksums.db
