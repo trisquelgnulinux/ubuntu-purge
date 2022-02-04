@@ -66,6 +66,7 @@ linux-gke*
 linux-goldfish*
 linux-grouper*
 linux-hammerhead*
+linux-ibm*
 linux-joule*
 linux-kvm*
 linux-linaro*
