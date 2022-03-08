@@ -1,35 +1,4 @@
 
-Name: xenial
-Method: http://archive.ubuntu.com/ubuntu/
-Suite: xenial
-Components: main>main universe>main
-UDebComponents: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterSrcList: install purge-xenial
-
-Name: xenial-updates
-Method: http://archive.ubuntu.com/ubuntu/
-Suite: xenial-updates
-Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterSrcList: install purge-xenial
-
-Name: xenial-security
-Method: http://archive.ubuntu.com/ubuntu/
-Suite: xenial-security
-Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterSrcList: install purge-xenial
-
-Name: xenial-backports
-Method: http://archive.ubuntu.com/ubuntu/
-Suite: xenial-backports
-Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1
-FilterSrcList: install purge-xenial
-
-############################################################
-
 Name: bionic
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: bionic
@@ -131,59 +100,74 @@ VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
 FilterSrcList: install purge-focal replace-focal-backports
 
 
+############################################################
 
-# FIREFOX ######################################################
-
-
-Name: xenial-ubuntu-mozilla-security
-Method: http://ppa.launchpad.net/ubuntu-mozilla-security/rust-next/ubuntu
-Suite: xenial
-Components: main>main
-UDebComponents: main>main
-VerifyRelease: 7EBC211F
-FilterSrcList: install purge-xenial
-
-Name: bionic-ubuntu-mozilla-security
-Method: http://ppa.launchpad.net/ubuntu-mozilla-security/rust-next/ubuntu
-Suite: bionic
-Components: main>main
-UDebComponents: main>main
-VerifyRelease: 7EBC211F
-FilterSrcList: install purge-bionic
-
-Name: xenial-apt-llvm-org
-Method: https://apt.llvm.org/xenial/
-Suite: llvm-toolchain-xenial-11
-Components: main>main
-UDebComponents: main>main
-VerifyRelease: AF4F7421
-FilterSrcList: install purge-xenial
-
-Name: bionic-apt-llvm-org
-Method: https://apt.llvm.org/bionic/
-Suite: llvm-toolchain-bionic-11
-Components: main>main
-UDebComponents: main>main
-VerifyRelease: AF4F7421
-FilterSrcList: install purge-bionic
-
-Name: focal-apt-llvm-org
-Method: https://apt.llvm.org/focal/
-Suite: llvm-toolchain-focal-11
+Name: jammy
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: jammy
 Architectures: source i386 amd64
-Components: main>main
-UDebComponents: main>main
-VerifyRelease: AF4F7421
-FilterSrcList: install purge-focal
+Components: main>main universe>main
+UDebComponents: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+FilterSrcList: install purge-jammy replace-jammy
+
+Name: jammy-updates
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: jammy-updates
+Architectures: source i386 amd64
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+FilterSrcList: install purge-jammy replace-jammy
+
+Name: jammy-security
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: jammy-security
+Architectures: source i386 amd64
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+FilterSrcList: install purge-jammy replace-jammy
+
+Name: jammy-backports
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: jammy-backports
+Architectures: source i386 amd64
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+FilterSrcList: install purge-jammy replace-jammy-backports
+
+### PORTS
+
+Name: jammy-ports
+Method: http://ports.ubuntu.com/
+Suite: jammy
+Architectures: armhf arm64 ppc64el
+Components: main>main universe>main
+UDebComponents: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+FilterSrcList: install purge-jammy replace-jammy
+
+Name: jammy-updates-ports
+Method: http://ports.ubuntu.com/
+Suite: jammy-updates
+Architectures: armhf arm64 ppc64el
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+FilterSrcList: install purge-jammy replace-jammy
+
+Name: jammy-security-ports
+Method: http://ports.ubuntu.com/
+Suite: jammy-security
+Architectures: armhf arm64 ppc64el
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+FilterSrcList: install purge-jammy replace-jammy
+
+Name: jammy-backports-ports
+Method: http://ports.ubuntu.com/
+Suite: jammy-backports
+Architectures: armhf arm64 ppc64el
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+FilterSrcList: install purge-jammy replace-jammy-backports
 
 
-# CERTBOT ######################################################
-
-
-Name: xenial-certbot
-Method: http://ppa.launchpad.net/certbot/certbot/ubuntu
-Suite: xenial
-Components: main>main
-UDebComponents: main>main
-VerifyRelease: 8C47BE8E75BCA694
-FilterSrcList: install purge-xenial

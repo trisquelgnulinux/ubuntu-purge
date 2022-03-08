@@ -60,7 +60,7 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu bionic updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: bionic-backports #bionic-apt-llvm-org
+Update: bionic-backports
 
 ##################################################################################
 
@@ -124,5 +124,69 @@ DscIndices: Sources Release .gz .bz2
 Log: ubuntu-clean.log
 Description: Ubuntu focal updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
-Update: focal-backports focal-backports-ports #focal-apt-llvm-org
+Update: focal-backports focal-backports-ports
+
+##################################################################################
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: jammy
+Version: 22.04
+Codename: jammy
+Architectures: source i386 amd64 armhf arm64 ppc64el
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu jammy mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: jammy jammy-ports
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: jammy-updates
+Version: 22.04
+Codename: jammy-updates
+Architectures: source i386 amd64 armhf arm64 ppc64el
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu jammy updates mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: jammy-updates jammy-updates-ports
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: jammy-security
+Version: 22.04
+Codename: jammy-security
+Architectures: source i386 amd64 armhf arm64 ppc64el
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu jammy mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: jammy-security jammy-security-ports
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: jammy-backports
+Version: 22.04
+Codename: jammy-backports
+Architectures: source i386 amd64 armhf arm64 ppc64el
+Components: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu jammy updates mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: jammy-backports jammy-backports-ports
 
