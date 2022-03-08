@@ -36,28 +36,28 @@ Suite: bionic
 Components: main>main universe>main
 UDebComponents: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
-FilterSrcList: install purge-bionic
+FilterSrcList: install purge-bionic replace-bionic
 
 Name: bionic-updates
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: bionic-updates
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
-FilterSrcList: install purge-bionic
+FilterSrcList: install purge-bionic replace-bionic
 
 Name: bionic-security
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: bionic-security
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
-FilterSrcList: install purge-bionic
+FilterSrcList: install purge-bionic replace-bionic
 
 Name: bionic-backports
 Method: http://archive.ubuntu.com/ubuntu/
 Suite: bionic-backports
 Components: main>main universe>main
 VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
-FilterSrcList: install purge-bionic
+FilterSrcList: install purge-bionic replace-bionic
 
 
 ############################################################

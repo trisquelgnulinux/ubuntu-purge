@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-#    Copyright (C) 2008-2021  Ruben Rodriguez <ruben@gnu.org>
+#    Copyright (C) 2008-2022  Ruben Rodriguez <ruben@gnu.org>
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -44,9 +44,9 @@ reprepro --noskipold -v -b . predelete || repexit
 reprepro --noskipold -v -b . update || repexit
 
 echo Removing non free packages...
-sh purge.sh xenial flidas
 sh purge.sh bionic etiona
 sh purge.sh focal nabia
+sh purge.sh jammy aramo
 
 rm ERROR LOCK -f
 echo DONE at $(date)
