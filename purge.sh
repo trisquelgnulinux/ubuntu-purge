@@ -84,6 +84,7 @@ for REPO in $DIST $DIST-updates $DIST-security; do
         if grep "^$PACKAGE$" -q list-$REPO; then
             echo reprepro -v removesrc $REPO $PACKAGE
             reprepro -v removesrc $REPO $PACKAGE | echo $? | grep -qv 249
+	    reprepro -v removefilter $REPO "Package (==$PACKAGE)"
         fi
     done
 done
@@ -92,6 +93,7 @@ for PACKAGE in $(cat conf/replace-$DIST-backports | sed 's/ .*//'); do
     if grep "^$PACKAGE$" -q list-$DIST-backports; then
         echo reprepro -v removesrc $DIST-backports $PACKAGE
         reprepro -v removesrc $DIST-backports $PACKAGE | echo $? | grep -qv 249
+	reprepro -v removefilter $REPO-backports "Package (==$PACKAGE)"
     fi
 done
 

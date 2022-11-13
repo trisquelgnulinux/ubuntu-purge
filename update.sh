@@ -40,7 +40,7 @@ repexit(){
 echo "Locking for repo update at $(date)" > LOCK
 
 echo Updating ubuntu mirrors...
-reprepro --noskipold -v -b . predelete || repexit
+#reprepro --noskipold -v -b . predelete || repexit
 reprepro --noskipold -v -b . update || repexit
 
 echo Removing non free packages...
