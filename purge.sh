@@ -23,7 +23,7 @@ CODENAME=$2
 
 echo Updating git package-helpers...
 git --git-dir=/home/ubuntu/package-helpers/.git fetch --all
-REPLACE=$(git --git-dir=/home/ubuntu/package-helpers/.git ls-tree -r --name-only origin/$CODENAME|grep helpers/make-|sed 's/.*make-//')
+REPLACE=$(git --git-dir=/home/ubuntu/package-helpers/.git ls-tree -r --name-only origin/$CODENAME|grep helpers/make-|sed 's|helpers/make-||')
 
 if [ -x purge-$DIST ] 
 then
