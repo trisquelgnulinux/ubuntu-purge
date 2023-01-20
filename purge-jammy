@@ -82,6 +82,7 @@ linux-oem*
 linux-oracle*
 linux-mvl-dove*
 linux-n900*
+linux-nvidia*
 linux-ports*
 linux-qcm-msm*
 linux-raspi*
