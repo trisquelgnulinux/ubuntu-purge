@@ -69,6 +69,7 @@ linux-grouper*
 linux-hammerhead*
 linux-ibm*
 linux-intel*
+linux-iot*
 linux-joule*
 linux-kvm*
 linux-linaro*
