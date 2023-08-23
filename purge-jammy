@@ -90,6 +90,7 @@ linux-raspi*
 linux-riscv*
 linux-restricted*
 linux-rt*
+linux-realtime*
 linux-signed*
 linux-snapdragon*
 linux-starfive*
