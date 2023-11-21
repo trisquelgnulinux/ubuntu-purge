@@ -93,6 +93,7 @@ linux-signed*
 linux-snapdragon*
 linux-ti-omap4*
 linux-wlan-ng*
+linux-xilinx*
 maptransfer
 maptransfer-server
 mesademos
