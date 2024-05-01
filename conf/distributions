@@ -190,3 +190,67 @@ Description: Ubuntu jammy updates mirror (main and universe)
 SignWith: B4EFB9F38D8AEBF1
 Update: jammy-backports jammy-backports-ports
 
+##################################################################################
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: noble
+Version: 24.04
+Codename: noble
+Architectures: source i386 amd64 armhf arm64 ppc64el riscv64
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu noble mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: noble noble-ports
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: noble-updates
+Version: 24.04
+Codename: noble-updates
+Architectures: source i386 amd64 armhf arm64 ppc64el riscv64
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu noble updates mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: noble-updates noble-updates-ports
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: noble-security
+Version: 24.04
+Codename: noble-security
+Architectures: source i386 amd64 armhf arm64 ppc64el riscv64
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu noble mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: noble-security noble-security-ports
+
+Origin: Ubuntu
+Label: Ubuntu
+Suite: noble-backports
+Version: 24.04
+Codename: noble-backports
+Architectures: source i386 amd64 armhf arm64 ppc64el riscv64
+Components: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Log: ubuntu-clean.log
+Description: Ubuntu noble updates mirror (main and universe)
+SignWith: B4EFB9F38D8AEBF1
+Update: noble-backports noble-backports-ports
+

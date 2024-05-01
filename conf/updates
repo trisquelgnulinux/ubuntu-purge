@@ -108,7 +108,7 @@ Suite: jammy
 Architectures: source i386 amd64
 Components: main>main universe>main
 UDebComponents: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32|871920D1991BC93C
 FilterSrcList: install purge-jammy replace-jammy
 
 Name: jammy-updates
@@ -116,7 +116,7 @@ Method: http://archive.ubuntu.com/ubuntu/
 Suite: jammy-updates
 Architectures: source i386 amd64
 Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32|871920D1991BC93C
 FilterSrcList: install purge-jammy replace-jammy
 
 Name: jammy-security
@@ -124,7 +124,7 @@ Method: http://archive.ubuntu.com/ubuntu/
 Suite: jammy-security
 Architectures: source i386 amd64
 Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32|871920D1991BC93C
 FilterSrcList: install purge-jammy replace-jammy
 
 Name: jammy-backports
@@ -132,7 +132,7 @@ Method: http://archive.ubuntu.com/ubuntu/
 Suite: jammy-backports
 Architectures: source i386 amd64
 Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32|871920D1991BC93C
 FilterSrcList: install purge-jammy replace-jammy-backports
 
 ### PORTS
@@ -143,7 +143,7 @@ Suite: jammy
 Architectures: armhf arm64 ppc64el
 Components: main>main universe>main
 UDebComponents: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32|871920D1991BC93C
 FilterSrcList: install purge-jammy replace-jammy
 
 Name: jammy-updates-ports
@@ -151,7 +151,7 @@ Method: http://ports.ubuntu.com/
 Suite: jammy-updates
 Architectures: armhf arm64 ppc64el
 Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32|871920D1991BC93C
 FilterSrcList: install purge-jammy replace-jammy
 
 Name: jammy-security-ports
@@ -159,7 +159,7 @@ Method: http://ports.ubuntu.com/
 Suite: jammy-security
 Architectures: armhf arm64 ppc64el
 Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32|871920D1991BC93C
 FilterSrcList: install purge-jammy replace-jammy
 
 Name: jammy-backports-ports
@@ -167,7 +167,78 @@ Method: http://ports.ubuntu.com/
 Suite: jammy-backports
 Architectures: armhf arm64 ppc64el
 Components: main>main universe>main
-VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32|871920D1991BC93C
 FilterSrcList: install purge-jammy replace-jammy-backports
+
+
+############################################################
+
+Name: noble
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: noble
+Architectures: source i386 amd64
+Components: main>main universe>main
+UDebComponents: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32|871920D1991BC93C
+FilterSrcList: install purge-noble replace-noble
+
+Name: noble-updates
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: noble-updates
+Architectures: source i386 amd64
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32|871920D1991BC93C
+FilterSrcList: install purge-noble replace-noble
+
+Name: noble-security
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: noble-security
+Architectures: source i386 amd64
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32|871920D1991BC93C
+FilterSrcList: install purge-noble replace-noble
+
+Name: noble-backports
+Method: http://archive.ubuntu.com/ubuntu/
+Suite: noble-backports
+Architectures: source i386 amd64
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32|871920D1991BC93C
+FilterSrcList: install purge-noble replace-noble-backports
+
+### PORTS
+
+Name: noble-ports
+Method: http://ports.ubuntu.com/
+Suite: noble
+Architectures: armhf arm64 ppc64el riscv64
+Components: main>main universe>main
+UDebComponents: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32|871920D1991BC93C
+FilterSrcList: install purge-noble replace-noble
+
+Name: noble-updates-ports
+Method: http://ports.ubuntu.com/
+Suite: noble-updates
+Architectures: armhf arm64 ppc64el riscv64
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32|871920D1991BC93C
+FilterSrcList: install purge-noble replace-noble
+
+Name: noble-security-ports
+Method: http://ports.ubuntu.com/
+Suite: noble-security
+Architectures: armhf arm64 ppc64el riscv64
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32|871920D1991BC93C
+FilterSrcList: install purge-noble replace-noble
+
+Name: noble-backports-ports
+Method: http://ports.ubuntu.com/
+Suite: noble-backports
+Architectures: armhf arm64 ppc64el riscv64
+Components: main>main universe>main
+VerifyRelease: 3F272F5B|437D05B5|8D8AEBF1|3B4FE6ACC0B21F32|871920D1991BC93C
+FilterSrcList: install purge-noble replace-noble-backports
 
 
