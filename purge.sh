@@ -33,10 +33,12 @@ else
 fi
 
 echo Listing packages currently in local $DIST repository
-reprepro -A source list $DIST | cut -d' ' -f2 > list-$DIST
-reprepro -A source list $DIST-updates | cut -d' ' -f2 > list-$DIST-updates
-reprepro -A source list $DIST-security | cut -d' ' -f2 > list-$DIST-security
-reprepro -A source list $DIST-backports | cut -d' ' -f2 > list-$DIST-backports
+for VARIANT in '' '-updates' '-security' '-backports'
+do
+  reprepro -A source list ${DIST}${VARIANT} | cut -d' ' -f2 > list-${DIST}${VARIANT}
+  reprepro --list-format '${source}\n' list ${DIST}${VARIANT} | sed 's/ .*//' >> list-${DIST}${VARIANT}
+  sort -u list-${DIST}${VARIANT} -o list-${DIST}${VARIANT}
+done
 
 # blocklist packages
 echo Blocklisting packages defined in purge-$DIST
