@@ -74,6 +74,7 @@ linux-ibm*
 linux-intel*
 linux-joule*
 linux-kvm*
+linux-laptop*
 linux-linaro*
 linux-lpia*
 linux-maguro*
