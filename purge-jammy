@@ -36,9 +36,11 @@ fglrx*
 flashplugin-nonfree
 fonts-ubuntu*
 freesci
+fwupd
 fwupdate
 fwupdate-signed
 gdecrypt
+gnome-firmware
 gnome-speech
 grub2-signed
 gstreamer0.10-pitfdll
