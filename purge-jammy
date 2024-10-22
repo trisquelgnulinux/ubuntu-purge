@@ -152,6 +152,7 @@ ubuntu-restricted-extras
 unetbootin
 user-mode-linux
 user-mode-linux-doc
+vboot-utils
 vrms
 w9wm
 winetricks
