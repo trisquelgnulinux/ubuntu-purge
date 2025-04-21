@@ -41,6 +41,7 @@ fwupdate
 fwupdate-signed
 gdecrypt
 gnome-firmware
+gnome-software
 gnome-speech
 grub2-signed
 gstreamer0.10-pitfdll
