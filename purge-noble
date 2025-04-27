@@ -176,7 +176,7 @@ linux-restricted*
 linux-backports-modules*
 "
 
-# Free software packages or metapackages only relevant to branding Ubuntu
+# Free software packages or metapackages only relevant to branding Ubuntu or Debian
 
 UNBRAND="
 gfxboot-theme-ubuntu
@@ -242,4 +242,5 @@ unity-scope-chromiumbookmarks
 usplash-theme-ubuntustudio
 webaccounts-chromium-extension
 webaccounts-extension-common
+debian-reference
 "
