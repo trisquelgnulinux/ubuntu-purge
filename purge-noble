@@ -32,6 +32,7 @@ efilinux-signed
 emacs23
 emdebian-archive-keyring
 envyng*
+extrepo-data
 fglrx*
 flashplugin-nonfree
 fonts-ubuntu*
